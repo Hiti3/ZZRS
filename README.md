@@ -8,3 +8,7 @@ Setup:
 sudo apt-get update
 
 sudo apt-get install default-jdk
+
+Zagon programa:
+
+1. parameter zahteva število vhodnih podatkov, ki so nanizani vsak v svoji vrstici.
