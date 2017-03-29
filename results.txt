@@ -1,0 +1,21 @@
+Čas: 2.239ms
+Čas: 0.328ms
+Čas: 0.352ms
+Čas: 0.25ms
+Čas: 0.228ms
+Čas: 0.226ms
+Čas: 0.219ms
+Čas: 0.218ms
+Čas: 0.219ms
+Čas: 0.228ms
+Čas: 0.218ms
+Čas: 0.222ms
+Čas: 0.215ms
+Čas: 0.215ms
+Čas: 0.229ms
+Čas: 0.215ms
+Čas: 0.215ms
+Čas: 0.21ms
+Čas: 0.226ms
+Čas: 0.249ms
+Povprečni čas: 0.336ms
