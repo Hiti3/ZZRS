@@ -1,0 +1,9 @@
+{
+  "name": "express-parameters",
+  "main": "server.js",
+  "dependencies": {
+    "mime": "latest",
+    "fs-extra": "latest",
+    "formidable": "latest"
+  }
+}

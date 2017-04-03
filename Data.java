@@ -13,14 +13,14 @@ public class Data {
     }
     
     public boolean isSmaller(Data element) {
-        return this.value < element.value ? true : false;
+        return this.value < element.value;
     }
     
     public boolean isBigger(Data element) {
-        return this.value > element.value ? true : false;
+        return this.value > element.value;
     }
     
     public boolean equals(Data element) {
-        return this.value == element.value ? true : false;
+        return this.value == element.value;
     }
 }
