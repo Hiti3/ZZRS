@@ -62,7 +62,7 @@ function naloziDatoteko(zahteva, odgovor) {
                 posredujNapako500(odgovor);
             } else {
                 exec(('./sorter ./data/' + datoteka + ' ./data/izhod.txt'), function(error, stdout, stderr) {
-                    console.log(stderr);
+                    console.log(datoteka);
                     posredujStaticnoVsebino(odgovor, './data/izhod.txt', "");
                 });
             }

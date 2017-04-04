@@ -2,7 +2,7 @@ import requests
 import time
 
 
-url = 'https://zzrs-kristanm1.c9users.io/nalozi'
+url = 'https://zzrs-server-kristanm1.c9users.io/nalozi'
 files = {'file': open('./int_50000x.txt')}
 start = time.time()
 response = requests.post(url, files=files)
