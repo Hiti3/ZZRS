@@ -1,26 +1,27 @@
 import requests
-import time
 from threading import Thread
+from requests_throttler import BaseThrottler
+import logging
 
-def ask_for_sort(url, file_name):
-    files = {"file": open(file_name)}
-    start = time.time()
-    response = requests.post(url, files=files)
-    time_spent = time.time() - start
-    return [response, time_spent]
-    
-def _print(tab, client_id, file_id, print_data):
-    num_elements = tab[0].text.split('\n')[0]
-    total_time = str(round(tab[1], 3))
-    print("client: " + client_id + " file: " + file_id + " elements: " + num_elements + " time: " + total_time + " s")
+def _print(response, client_id, file_id, print_data):
+    num_elements = response.text.split('\n')[0]
+    total_time = response.elapsed.total_seconds()
+    print("client: {:d} file: {:d} elements: {:s} time: {:.3f} s".format(client_id, file_id, num_elements, total_time))
     if(print_data != 0):
-        print(tab[0].text)
+        print(response.text)
     return
 
-def sort_file_list(url, file_list, client_id):
-    for i, file in enumerate(file_list):
-        data = ask_for_sort(url, file)
-        _print(data, str(client_id), str(i), 0)
+def sort_file_list(url, file_list, wait_for_response, request_delay, client_id):
+    if wait_for_response:
+        for i, file in enumerate(file_list):
+            response = requests.post(url, files={"file": open(file)})
+            _print(response, client_id, i, 0)
+    else:
+        reqs = [requests.Request(method="POST", url=url, files={"file": open(file_name)}) for file_name in file_list]
+        with BaseThrottler(name='base-throttler', delay=request_delay) as bt:
+            throttled_requests = bt.multi_submit(reqs)
+        for i, tr in enumerate(throttled_requests):
+            _print(tr.response, client_id, i, 0)
     return
 
 c9_username = ""
@@ -29,9 +30,12 @@ url = "https://" + c9_workspace_name + "-" + c9_username + ".c9users.io/nalozi"
 data_type = "int"
 input_size = 10000
 num_files = 10
-file_list = ["inputs/" + data_type + "_" + str(input_size) + "_" + str(i) + ".txt" for i in range(num_files)]
+file_list = ["inputs/{:s}_{:d}_{:d}.txt".format(data_type, input_size, i) for i in range(num_files)]
 num_clients = 10
+wait_for_response = False
+request_delay = 5.0
 
+logging.disable(logging.WARNING)
 for i in range(num_clients):
-    t = Thread(target=sort_file_list, args=(url, file_list, i))
+    t = Thread(target=sort_file_list, args=(url, file_list, wait_for_response, request_delay, i))
     t.start()
