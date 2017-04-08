@@ -4,6 +4,7 @@
   "dependencies": {
     "mime": "latest",
     "fs-extra": "latest",
-    "formidable": "latest"
+    "formidable": "latest",
+    "shortid": "latest"
   }
 }

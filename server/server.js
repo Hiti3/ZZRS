@@ -5,6 +5,7 @@ var fs = require('fs-extra');
 var util = require('util');
 var path = require('path');
 var exec = require('child_process').exec;
+var shortid = require('shortid');
 
 var port = process.env.PORT || 8080;
 var dataDir = "./temp/";
@@ -19,7 +20,7 @@ var streznik = http.createServer(function(zahteva, odgovor) {
 });
 
 streznik.listen(port, function(){
-    console.log("Streznik je zagnan!")
+    console.log("Streznik je zagnan!");
 });
 
 function posredujStaticnoVsebino(odgovor, absolutnaPotDoDatoteke, mimeType) {
@@ -44,7 +45,11 @@ function posredujDatoteko(odgovor, datotekaPot, datotekaVsebina, mimeType) {
     } else {
         odgovor.writeHead(200, {'Content-Type': mimeType});
     }
-    odgovor.end(datotekaVsebina);
+    odgovor.end(datotekaVsebina, function() {
+        if(path.dirname(datotekaPot) == './temp') {
+            fs.unlink(datotekaPot);
+        }
+    });
 }
 
 function naloziDatoteko(zahteva, odgovor) {
@@ -56,14 +61,18 @@ function naloziDatoteko(zahteva, odgovor) {
  
     form.on('end', function(fields, files) {
         var zacasnaPot = this.openedFiles[0].path;
-        var datoteka = this.openedFiles[0].name;
-        fs.copy(zacasnaPot, dataDir + datoteka, function(napaka) {  
+        var id = shortid.generate();
+        var vhodnaDatoteka = dataDir + 'vhod_' + id + '.txt';
+        var izhodnaDatoteka = dataDir + 'izhod_' + id + '.txt';
+        fs.copy(zacasnaPot, vhodnaDatoteka, function(napaka) {  
             if (napaka) {
                 posredujNapako500(odgovor);
             } else {
-                exec(('./util/bin/sorter ./temp/' + datoteka + ' ./temp/izhod.txt'), function(error, stdout, stderr) {
-                    console.log(datoteka);
-                    posredujStaticnoVsebino(odgovor, './temp/izhod.txt', "");
+                var execCommand = './util/bin/sorter ' + vhodnaDatoteka + ' ' + izhodnaDatoteka;
+                exec(execCommand, function(error, stdout, stderr) {
+                    console.log(vhodnaDatoteka);
+                    fs.unlink(vhodnaDatoteka);
+                    posredujStaticnoVsebino(odgovor, izhodnaDatoteka, "");
                 });
             }
         });
@@ -74,10 +83,10 @@ function posredujNapako500(odgovor) {
     odgovor.writeHead(500, {'Content-Type': 'text/plain'});
     odgovor.write('Napaka 500: Napaka na strezniku!');
     odgovor.end();
-};
+}
 
 function posredujNapako404(odgovor) {
     odgovor.writeHead(404, {'Content-Type': 'text/plain'});
     odgovor.write('Napaka 404: Vira ni mogoce najti!');
     odgovor.end();
-};
+}
