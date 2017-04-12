@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.1)  7 APR 2017 23:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.1)  12 APR 2017 19:26
 entering extended mode
 **./mro.tex
 (mro.tex
@@ -761,7 +761,11 @@ Package: ulem 2012/05/18
 \c@definicija=\count151
 \c@zgled=\count152
  (mro.aux (preface.aux)
-(poglavje01.aux))
+(poglavje01.aux
+
+LaTeX Warning: Label `8_opis_problema' multiply defined.
+
+))
 \openout1 = `mro.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
@@ -836,7 +840,7 @@ Poglavje 1.
 File: img/8_zzrs_opis_problema.pdf Graphic file (type pdf)
 
 <use img/8_zzrs_opis_problema.pdf>
-Package pdftex.def Info: img/8_zzrs_opis_problema.pdf used on input line 19.
+Package pdftex.def Info: img/8_zzrs_opis_problema.pdf used on input line 18.
 (pdftex.def)             Requested size: 276.00105pt x 276.00323pt.
  [1
 
@@ -848,40 +852,83 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2 <./img/8_zzrs_opis_problema.pdf>]) [3] [4
+[2 <./img/8_zzrs_opis_problema.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 49.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+[3] <img/test1.png, id=118, 388.95313pt x 305.64188pt>
+File: img/test1.png Graphic file (type png)
+ <use img/test1.png>
+Package pdftex.def Info: img/test1.png used on input line 77.
+(pdftex.def)             Requested size: 276.00105pt x 216.89064pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+[4 <./img/test1.png>] <img/test2.png, id=122, 381.92688pt x 306.14375pt>
+File: img/test2.png Graphic file (type png)
+
+<use img/test2.png>
+Package pdftex.def Info: img/test2.png used on input line 103.
+(pdftex.def)             Requested size: 276.00105pt x 221.24548pt.
+) [5 <./img/test2.png>] [6
 
 
 ] (mro.bbl)
 No file mro.ind.
-[5
+[7
 
-] (mro.aux (preface.aux) (poglavje01.aux)) ) 
+] (mro.aux (preface.aux) (poglavje01.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 24928 strings out of 493333
- 614318 string characters out of 3139169
- 787779 words of memory out of 3000000
- 27961 multiletter control sequences out of 15000+200000
+ 24960 strings out of 493333
+ 614807 string characters out of 3139169
+ 789779 words of memory out of 3000000
+ 27987 multiletter control sequences out of 15000+200000
  20081 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,96p,727b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Matej Kristan\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Matej 
-Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
-> <C:\Users\Matej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecrm2074.pk> <C:\Users\Matej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\l
-jfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Matej Kristan\AppData\Local\MiK
-TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\Matej Kristan
-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1000.pk> <C:\U
-sers\Matej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecbx1000.pk> <C:\Users\Matej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
-knappen\ec\dpi600\ecbx2488.pk> <C:\Users\Matej Kristan\AppData\Local\MiKTeX\2.9
-\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Matej Kristan\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Ma
-tej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm172
-8.pk>
-Output written on mro.pdf (11 pages, 391112 bytes).
+ <C:\Users\Matej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ecbx1200.pk> <C:\Users\Matej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Matej Kristan\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\Matej Krista
+n\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\
+Users\Matej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecti1000.pk> <C:\Users\Matej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ecsl1000.pk> <C:\Users\Matej Kristan\AppData\Local\MiKTeX\2.
+9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Matej Kristan\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\M
+atej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm10
+00.pk> <C:\Users\Matej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecrm1200.pk> <C:\Users\Matej Kristan\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb>
+Output written on mro.pdf (13 pages, 487976 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
+ 466 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

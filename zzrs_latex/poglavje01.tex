@@ -9,8 +9,7 @@
 \normalsize
 \bigskip
 
-\section{Opis problema}
-
+\section{Opis problema} \label{8_opis_problema}
 \noindent Dana"snje dni se uveljavljajo obla"cne storitve, saj so s stali"s"ca uporabnika najenostavnej"se za uporabo. Na"sa naloga je implementirati prenos datoteke na oz. z obla"cne storitve in breme na obla"cni storitvi, za katerega smo si izbrali sortiranje numeri"cnih podatkov.
 \noindent Na sliki \ref{8_opis_problema} je grafi"cen prikaz opisanega problema.
 
@@ -23,17 +22,85 @@
 
 
 \section{Namen}
-
 Na"se testiranje bo obsegalo merjenje razli"cnih izvajalnih "casov na podlagi katerih bi pri"sli do podatkov o zmogljivosti sistema. Breme sistema bodo razli"cni algoritmi sortiranja podatkov. Namen na"se naloge bo ugotoviti zmogljivost zastonjske ponudbe z vidika razli"cnih metrik zmogljivosti.
 
 
 \section{Izbira ponudnikov}
-Zaradij predhodnih izku"senj z obla"cno storitvijo Cloud9 smo se odlo"cili za njihovo zastonjsko ponudbo. Cloud9 ponuja razvojno okolje in operacijski sistem Ubuntu v katerem lahko pi"semo ali pa izvajamo razli"cne programe.
+Zaradi predhodnih izku"senj z obla"cno storitvijo Cloud9 smo se odlo"cili za njihovo zastonjsko ponudbo. Cloud9 ponuja razvojno okolje in operacijski sistem Ubuntu v katerem lahko pi"semo ali pa izvajamo razli"cne programe.
 
 \subsection{Cloud 9}
-Cloud9 je delavno orodje, ki je namenjeno programiranju v brskalniku. Torej vpi"semo URL v brskalnik in "ze imamo vse pripravljeno za pisanje prvega programa. Pri zastonski narocnini nam dajo 512MB pomnilnika.
+Cloud9 je delavno orodje, ki je namenjeno programiranju v brskalniku. Torej vpi"semo URL v brskalnik in "ze imamo vse pripravljeno za pisanje prvega programa. Pri zastonski narocnini nam dajo 512MB primarnega pomnilnika, in 2GB prostora na disku.
 
 \section{Izbira tehnologij}
+V tem razdelku so na kratko opisane vse izbrane tehnologije, ki smo jih realizirali sami za na"so analizo.
+
+\subsection{Tehnologija v oblaku}
 V obla"cni storitvi smo implementirali stre"znik, ki je napisan v jeziku javascript z uporabo knji"znice Node.js~\cite{8_nodejs}, ki v odvisnosti od URL zahteve posreduje temu primerno datoteko na odjemalca. Stre"znik poskrbi za prena"sanje datotek in zagon potrebnega programa za sortiranje podatkov na stre"zniku.
 
-Zaradi avtomatskega testiranja smo napisali tudi skripto v programskem jeziku python~\cite{8_python}, ki omogo"ca avtomatsko po"siljanje datoteke in URL zahteve na stre"znik, ter kot odgovor prejme urejeno datoteko z urejenimi podatki. Seveda pa ob tem "se zabele"zimo "cas pred po"siljanjem zahteve in "cas po prejetju urejene datoteke, da dobimo izvajalni "cas celotne procedure.
+\subsection{Tehnologija za avtomatizacijo odjemalcev}
+Zaradi avtomatskega testiranja smo napisali tudi skripto v programskem jeziku python~\cite{8_python}, ki omogo"ca avtomatsko po"siljanje datoteke in URL zahteve na stre"znik, ter kot odgovor prejme urejeno datoteko z urejenimi podatki. Seveda pa ob tem "se zabele"zimo "cas pred po"siljanjem zahteve in "cas po prejetju urejene datoteke, da dobimo izvajalni "cas celotne procedure. Ker je odjemalcev lahko ve"cje "stevilo, smo ta problem re"sili z nitmi, kjer vsaka nit predstavlja enega odjemalca in po"silja zahteve na stre"znik.
+
+\section{Testiranje obla"cne storitve}
+V tem razdelku je opisan na"cin testiranja na"se implementacije.
+
+\subsection{Opis na"cina testiranja}
+Kot smo opisali "ze zgoraj v razdelku \ref{8_opis_problema} bomo po"siljali na stre"znik datoteke z neurejenimi podatki in "cakali na prejem datotek iz stre"znika z urejenimi podatki. Testirali bomo z razli"cnimi:
+\begin{itemize}
+  \item "Stevili odjemalcev
+  \item "Stevili podatkov za urejanje
+  \item Algoritmi urejanja podatkov
+  \item Tipi podatkov, ki jih urejamo
+\end{itemize}
+
+
+\subsection{Testiranje I.}
+Naklju"cno smo generirali nekaj datotek z 10000 integer "stevili, ki jih je nato 1/10/20/50/70 odjemalcev po"siljalo na stre"znik eno za drugo isto"casno. Izmerili smo "case potrebne za prejetje urejene datoteke in pri"sli do povre"cnih "casov. Testiranje je bilo izvedeno okoli popoldneva. Vse meritve so prikazane na sliki \ref{8_test1} in v tabeli \ref{8_table1}.\\\\
+
+\begin{figure}
+  \centering
+  \begin{tabular}{ | c | c | }
+    \hline
+    "Stevilo odjemalcev & "Cas obdelave\\ \hline
+	1 & 1.041 \\ \hline
+    10 & 3.597 \\ \hline
+    20 & 6.721 \\ \hline
+    50 & 16.930 \\ \hline
+    70 & 24.832 \\ \hline
+  \end{tabular}
+  \caption{Tabela "casov obdelav datotek z 10 tiso"c integer "stevili.}
+  \label{8_table1}
+  \centering
+\end{figure}
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.8\textwidth]{test1.png}
+  \caption{Graf "casa v odvisnosti od "stevila odjemalcev.}
+  \label{8_test1}  
+\end{figure}
+
+\subsection{Testiranje II.}
+Naklju"cno smo generirali nekaj datotek z 50000 integer "stevili, ki jih je nato 1/10/20/50/70 odjemalcev po"siljalo na stre"znik eno za drugo isto"casno. Izmerili smo "case potrebne za prejetje urejene datoteke in pri"sli do povre"cnih "casov. Vse meritve so prikazane na sliki \ref{8_test2} in v tabeli \ref{8_table2}. Testiranje je bilo izvedeno okoli popoldneva. Pri testu z 70 odjemalci je prihajalo do predolge obdelave podatkov na stre"zniku in je python skripta javila napako, da se stre"znik ne odziva.\\\\
+
+\begin{figure}
+  \centering
+  \begin{tabular}{ | c | c | }
+    \hline
+    "Stevilo odjemalcev & "Cas obdelave\\ \hline
+	1 & 11.118 \\ \hline
+    10 & 79.759 \\ \hline
+    20 & 125.738 \\ \hline
+    50 & 141.873 \\ \hline
+    70 & ERROR \\ \hline
+  \end{tabular}
+  \caption{Tabela "casov obdelav datotek z 50 tiso"c integer "stevili.}
+  \label{8_table2}
+  \centering
+\end{figure}
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.8\textwidth]{test2.png}
+  \caption{Graf "casa v odvisnosti od "stevila odjemalcev.}
+  \label{8_test2}  
+\end{figure}
