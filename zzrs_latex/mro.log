@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.1)  12 APR 2017 19:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.1)  12 APR 2017 22:30
 entering extended mode
 **./mro.tex
 (mro.tex
@@ -841,7 +841,7 @@ File: img/8_zzrs_opis_problema.pdf Graphic file (type pdf)
 
 <use img/8_zzrs_opis_problema.pdf>
 Package pdftex.def Info: img/8_zzrs_opis_problema.pdf used on input line 18.
-(pdftex.def)             Requested size: 276.00105pt x 276.00323pt.
+(pdftex.def)             Requested size: 345.0pt x 344.99428pt.
  [1
 
 
@@ -861,27 +861,27 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
 [3] <img/test1.png, id=118, 388.95313pt x 305.64188pt>
 File: img/test1.png Graphic file (type png)
  <use img/test1.png>
-Package pdftex.def Info: img/test1.png used on input line 77.
+Package pdftex.def Info: img/test1.png used on input line 78.
 (pdftex.def)             Requested size: 276.00105pt x 216.89064pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
@@ -889,7 +889,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 File: img/test2.png Graphic file (type png)
 
 <use img/test2.png>
-Package pdftex.def Info: img/test2.png used on input line 103.
+Package pdftex.def Info: img/test2.png used on input line 104.
 (pdftex.def)             Requested size: 276.00105pt x 221.24548pt.
 ) [5 <./img/test2.png>] [6
 
@@ -926,9 +926,9 @@ atej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm10
 n\ec\dpi600\ecrm1200.pk> <C:\Users\Matej Kristan\AppData\Local\MiKTeX\2.9\fonts
 \pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb>
-Output written on mro.pdf (13 pages, 487976 bytes).
+Output written on mro.pdf (13 pages, 488808 bytes).
 PDF statistics:
- 466 PDF objects out of 1000 (max. 8388607)
+ 468 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

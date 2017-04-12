@@ -69,8 +69,8 @@ function naloziDatoteko(zahteva, odgovor) {
                 posredujNapako500(odgovor);
             } else {
                 var execCommand = './util/bin/sorter ' + vhodnaDatoteka + ' ' + izhodnaDatoteka;
+                console.log(vhodnaDatoteka);
                 exec(execCommand, function(error, stdout, stderr) {
-                    console.log(vhodnaDatoteka);
                     fs.unlink(vhodnaDatoteka);
                     posredujStaticnoVsebino(odgovor, izhodnaDatoteka, "");
                 });

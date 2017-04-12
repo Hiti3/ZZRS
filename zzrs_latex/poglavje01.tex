@@ -10,12 +10,12 @@
 \bigskip
 
 \section{Opis problema} \label{8_opis_problema}
-\noindent Dana"snje dni se uveljavljajo obla"cne storitve, saj so s stali"s"ca uporabnika najenostavnej"se za uporabo. Na"sa naloga je implementirati prenos datoteke na oz. z obla"cne storitve in breme na obla"cni storitvi, za katerega smo si izbrali sortiranje numeri"cnih podatkov.
+\noindent Dana"snje dni se uveljavljajo obla"cne storitve, saj so s stali"s"ca uporabnika najenostavnej"se za uporabo. Na"sa naloga je implementirati prenos datoteke na oz. z obla"cne storitve in breme na obla"cni storitvi, za katero smo si izbrali sortiranje numeri"cnih podatkov.
 \noindent Na sliki \ref{8_opis_problema} je grafi"cen prikaz opisanega problema.
 
 \begin{figure}
   \centering
-    \includegraphics[width=0.8\textwidth]{8_zzrs_opis_problema.pdf}
+    \includegraphics[width=1.0\textwidth]{8_zzrs_opis_problema.pdf}
   \caption{Shema delovanja sistema.}
   \label{8_opis_problema}
 \end{figure}
@@ -50,11 +50,12 @@ Kot smo opisali "ze zgoraj v razdelku \ref{8_opis_problema} bomo po"siljali na s
   \item "Stevili podatkov za urejanje
   \item Algoritmi urejanja podatkov
   \item Tipi podatkov, ki jih urejamo
+  \item Strategija po"siljanja("cakaj na odgovor/ne "cakaj na odgovor)
 \end{itemize}
 
 
 \subsection{Testiranje I.}
-Naklju"cno smo generirali nekaj datotek z 10000 integer "stevili, ki jih je nato 1/10/20/50/70 odjemalcev po"siljalo na stre"znik eno za drugo isto"casno. Izmerili smo "case potrebne za prejetje urejene datoteke in pri"sli do povre"cnih "casov. Testiranje je bilo izvedeno okoli popoldneva. Vse meritve so prikazane na sliki \ref{8_test1} in v tabeli \ref{8_table1}.\\\\
+Naklju"cno smo generirali nekaj datotek z 10000 integer "stevili, ki jih je nato 1/10/20/50/70 odjemalcev po"siljalo na stre"znik eno za drugo isto"casno, in preden po"slje novo po"caka, da dobi urejeno datoteko kot odgovor. Izmerili smo "case potrebne za prejetje urejene datoteke in pri"sli do povre"cnih "casov. Testiranje je bilo izvedeno okoli popoldneva. Vse meritve so prikazane na sliki \ref{8_test1} in v tabeli \ref{8_table1}.\\\\
 
 \begin{figure}
   \centering
@@ -80,7 +81,7 @@ Naklju"cno smo generirali nekaj datotek z 10000 integer "stevili, ki jih je nato
 \end{figure}
 
 \subsection{Testiranje II.}
-Naklju"cno smo generirali nekaj datotek z 50000 integer "stevili, ki jih je nato 1/10/20/50/70 odjemalcev po"siljalo na stre"znik eno za drugo isto"casno. Izmerili smo "case potrebne za prejetje urejene datoteke in pri"sli do povre"cnih "casov. Vse meritve so prikazane na sliki \ref{8_test2} in v tabeli \ref{8_table2}. Testiranje je bilo izvedeno okoli popoldneva. Pri testu z 70 odjemalci je prihajalo do predolge obdelave podatkov na stre"zniku in je python skripta javila napako, da se stre"znik ne odziva.\\\\
+Naklju"cno smo generirali nekaj datotek z 50000 integer "stevili, ki jih je nato 1/10/20/50/70 odjemalcev po"siljalo na stre"znik eno za drugo isto"casno, in preden po"slje novo po"caka, da dobi urejeno datoteko kot odgovor. Izmerili smo "case potrebne za prejetje urejene datoteke in pri"sli do povre"cnih "casov. Vse meritve so prikazane na sliki \ref{8_test2} in v tabeli \ref{8_table2}. Testiranje je bilo izvedeno okoli popoldneva. Pri testu z 70 odjemalci je prihajalo do predolge obdelave podatkov na stre"zniku in je python skripta javila napako, da se stre"znik ne odziva.\\\\
 
 \begin{figure}
   \centering
