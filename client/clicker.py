@@ -8,14 +8,15 @@ c9_username = "kristanm1"
 c9_workspace_name = "zzrs-server"
 url = "https://" + c9_workspace_name + "-" + c9_username + ".c9users.io/nalozi"
 data_type = "int"
-input_size = 10000
-num_clients = 70
-num_files = 5
+input_size = 25000
+num_clients = 10
+num_files = 1
 wait_for_response = True
 request_delay = 0.5
 file_list = ["inputs/"+data_type+"_"+str(input_size)+"/"+data_type+"_"+str(input_size)+"_"+str(i)+".txt" for i in range(num_files)]
 threads = []
 
+err = False
 times = [0.0] * num_clients
 
 def ask_for_sort(url, file_name):
@@ -27,9 +28,11 @@ def ask_for_sort(url, file_name):
     
 def _print(response, client_id, file_id, print_data):
     num_elements = response.text.split('\n')[0]
+    if not isinstance(num_elements, int):
+        error = True
     total_time = response.elapsed.total_seconds()
     times[int(client_id)] += float(total_time)
-    print("client: {:d} file: {:d} elements: {:s} time: {:.3f} s".format(client_id, file_id, num_elements, total_time))
+    print("client: {:3d} file: {:3d} elements: {:6s} time: {:.3f} s".format(client_id, file_id, num_elements, total_time))
 
 def sort_file_list(url, file_list, wait_for_response, request_delay, client_id):
     if wait_for_response:
@@ -58,3 +61,4 @@ print("Povprecen cas: " + str(sum/num_clients))
 print("Stevilo odjemalcev: " + str(num_clients))
 print("Stevilo podatkov v datoteki: " + str(input_size))
 print("Stevilo razlicnih datotek: " + str(num_files))
+print("Prislo do napake: " + str(err))
