@@ -15,7 +15,7 @@
 
 \begin{figure}
   \centering
-    \includegraphics[width=1.0\textwidth]{8_zzrs_opis_problema.pdf}
+    \includegraphics[width=0.74\textwidth]{8_zzrs_opis_problema.pdf}
   \caption{Shema delovanja sistema.}
   \label{8_opis_problema}
 \end{figure}
@@ -35,73 +35,105 @@ Cloud9 je delavno orodje, ki je namenjeno programiranju v brskalniku. Torej vpi"
 V tem razdelku so na kratko opisane vse izbrane tehnologije, ki smo jih realizirali sami za na"so analizo.
 
 \subsection{Tehnologija v oblaku}
-V obla"cni storitvi smo implementirali stre"znik, ki je napisan v jeziku javascript z uporabo knji"znice Node.js~\cite{8_nodejs}, ki v odvisnosti od URL zahteve posreduje temu primerno datoteko na odjemalca. Stre"znik poskrbi za prena"sanje datotek in zagon potrebnega programa za sortiranje podatkov na stre"zniku.
+V obla"cni storitvi smo implementirali stre"znik, ki je napisan v jeziku javascript z uporabo knji"znice Node.js~\cite{8_nodejs}, ki v odvisnosti od URL zahteve posreduje temu primerno datoteko na odjemalca. Stre"znik poskrbi za prena"sanje datotek in zagon sortirnega programa za sortiranje podatkov na stre"zniku.
 
 \subsection{Tehnologija za avtomatizacijo odjemalcev}
 Zaradi avtomatskega testiranja smo napisali tudi skripto v programskem jeziku python~\cite{8_python}, ki omogo"ca avtomatsko po"siljanje datoteke in URL zahteve na stre"znik, ter kot odgovor prejme urejeno datoteko z urejenimi podatki. Seveda pa ob tem "se zabele"zimo "cas pred po"siljanjem zahteve in "cas po prejetju urejene datoteke, da dobimo izvajalni "cas celotne procedure. Ker je odjemalcev lahko ve"cje "stevilo, smo ta problem re"sili z nitmi, kjer vsaka nit predstavlja enega odjemalca in po"silja zahteve na stre"znik.
 
-\section{Testiranje obla"cne storitve}
-V tem razdelku je opisan na"cin testiranja na"se implementacije.
-
-\subsection{Opis na"cina testiranja}
-Kot smo opisali "ze zgoraj v razdelku \ref{8_opis_problema} bomo po"siljali na stre"znik datoteke z neurejenimi podatki in "cakali na prejem datotek iz stre"znika z urejenimi podatki. Testirali bomo z razli"cnimi:
-\begin{itemize}
-  \item "Stevili odjemalcev
-  \item "Stevili podatkov za urejanje
-  \item Algoritmi urejanja podatkov
-  \item Tipi podatkov, ki jih urejamo
-  \item Strategija po"siljanja("cakaj na odgovor/ne "cakaj na odgovor)
-\end{itemize}
-
+\section{Rezultati meritev}
+V tem razdelku so opisani na"cin testiranja na"se  storitve in rezultati meritev.
 
 \subsection{Testiranje I.}
-Naklju"cno smo generirali nekaj datotek z 10000 integer "stevili, ki jih je nato 1/10/20/50/70 odjemalcev po"siljalo na stre"znik eno za drugo isto"casno, in preden po"slje novo po"caka, da dobi urejeno datoteko kot odgovor. Izmerili smo "case potrebne za prejetje urejene datoteke in pri"sli do povre"cnih "casov. Testiranje je bilo izvedeno okoli popoldneva. Vse meritve so prikazane na sliki \ref{8_test1} in v tabeli \ref{8_table1}.\\\\
+Naklju"cno smo generirali po eno datotek z 10000/15000/20000/25000/30000 integer "stevili, ki jih je nato 1/10/20/30/40/50 odjemalcev po"siljalo na stre"znik. Izmerili smo "case potrebne za prejetje urejene datoteke in pri"sli do povre"cnih "casov. Testiranje je bilo izvedeno okoli popoldneva.  Vse meritve so prikazane na sliki \ref{8_test1} in v tabelah \ref{8_table1}, \ref{8_table2}, \ref{8_table3}, \ref{8_table4}, \ref{8_table5}, kjer je prikazan povre"cen "cas obdelave. Pri datotekah z 25 tiso"c "stevili in 40 do 50 odjemalci je pri"slo do napake 'existing connection was forcibly closed by remote host'. Pri datotekah z 30 tiso"c "stevili in 40 do 50 odjemalci pa nekateri odjemalci po dvo minutnem "cakanju niso dobili odgovora in povezava se prekine. Zakaj in kje pride do napake "se nismo ugotavljali.\\\\
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.65\textwidth]{testiranje_int.png}
+  \caption{Graf "casa v odvisnosti od "stevila odjemalcev.}
+  \label{8_test1}  
+\end{figure}
 
 \begin{figure}
   \centering
   \begin{tabular}{ | c | c | }
     \hline
-    "Stevilo odjemalcev & "Cas obdelave\\ \hline
-	1 & 1.041 \\ \hline
-    10 & 3.597 \\ \hline
-    20 & 6.721 \\ \hline
-    50 & 16.930 \\ \hline
-    70 & 24.832 \\ \hline
+    "Stevilo odjemalcev & "Cas obdelave[sek]\\ \hline
+	1 & 1.57 \\ \hline
+    10 & 3.20 \\ \hline
+    20 & 4.36 \\ \hline
+    30 & 6.78 \\ \hline
+    40 & 13.23 \\ \hline
+    50 & 17.62 \\ \hline
   \end{tabular}
-  \caption{Tabela "casov obdelav datotek z 10 tiso"c integer "stevili.}
+  \caption{Tabela "casov obdelav datoteke z 10 tiso"c integer "stevili.}
   \label{8_table1}
   \centering
 \end{figure}
 
 \begin{figure}
   \centering
-    \includegraphics[width=0.8\textwidth]{test1.png}
-  \caption{Graf "casa v odvisnosti od "stevila odjemalcev.}
-  \label{8_test1}  
-\end{figure}
-
-\subsection{Testiranje II.}
-Naklju"cno smo generirali nekaj datotek z 50000 integer "stevili, ki jih je nato 1/10/20/50/70 odjemalcev po"siljalo na stre"znik eno za drugo isto"casno, in preden po"slje novo po"caka, da dobi urejeno datoteko kot odgovor. Izmerili smo "case potrebne za prejetje urejene datoteke in pri"sli do povre"cnih "casov. Vse meritve so prikazane na sliki \ref{8_test2} in v tabeli \ref{8_table2}. Testiranje je bilo izvedeno okoli popoldneva. Pri testu z 70 odjemalci je prihajalo do predolge obdelave podatkov na stre"zniku in je python skripta javila napako, da se stre"znik ne odziva.\\\\
-
-\begin{figure}
-  \centering
   \begin{tabular}{ | c | c | }
     \hline
-    "Stevilo odjemalcev & "Cas obdelave\\ \hline
-	1 & 11.118 \\ \hline
-    10 & 79.759 \\ \hline
-    20 & 125.738 \\ \hline
-    50 & 141.873 \\ \hline
-    70 & ERROR \\ \hline
+    "Stevilo odjemalcev & "Cas obdelave[sek]\\ \hline
+	1 & 2.27 \\ \hline
+    10 & 6.97 \\ \hline
+    20 & 10.46 \\ \hline
+	30 & 15.23 \\ \hline
+    40 & 24.25 \\ \hline
+    50 & 25.91 \\ \hline
   \end{tabular}
-  \caption{Tabela "casov obdelav datotek z 50 tiso"c integer "stevili.}
+  \caption{Tabela "casov obdelav datoteke z 15 tiso"c integer "stevili.}
   \label{8_table2}
   \centering
 \end{figure}
 
 \begin{figure}
   \centering
-    \includegraphics[width=0.8\textwidth]{test2.png}
-  \caption{Graf "casa v odvisnosti od "stevila odjemalcev.}
-  \label{8_test2}  
+  \begin{tabular}{ | c | c | }
+    \hline
+    "Stevilo odjemalcev & "Cas obdelave[sek]\\ \hline
+	1 & 3.18 \\ \hline
+    10 & 11.18 \\ \hline
+    20 & 22.01 \\ \hline
+	30 & 26.23 \\ \hline
+    40 & 35.05 \\ \hline
+    50 & 50.74 \\ \hline
+  \end{tabular}
+  \caption{Tabela "casov obdelav datoteke z 20 tiso"c integer "stevili.}
+  \label{8_table3}
+  \centering
+\end{figure}
+
+\begin{figure}
+  \centering
+  \begin{tabular}{ | c | c | }
+    \hline
+    "Stevilo odjemalcev & "Cas obdelave[sek]\\ \hline
+	1 & 4.16 \\ \hline
+    10 & 17.71 \\ \hline
+    20 & 40.92 \\ \hline
+	30 & 49.26 \\ \hline
+    40 & 49.32(napake) \\ \hline
+    50 & 67.18(napake) \\ \hline
+  \end{tabular}
+  \caption{Tabela "casov obdelav datoteke z 25 tiso"c integer "stevili.}
+  \label{8_table4}
+  \centering
+\end{figure}
+
+\begin{figure}
+  \centering
+  \begin{tabular}{ | c | c | }
+    \hline
+    "Stevilo odjemalcev & "Cas obdelave[sek]\\ \hline
+	1 & 5.09 \\ \hline
+    10 & 31.85 \\ \hline
+    20 & 49.17 \\ \hline
+	30 & 104.93 \\ \hline
+    40 & 120+(no answer) \\ \hline
+    50 & 120+(no answer) \\ \hline
+  \end{tabular}
+  \caption{Tabela "casov obdelav datoteke z 30 tiso"c integer "stevili.}
+  \label{8_table5}
+  \centering
 \end{figure}

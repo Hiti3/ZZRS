@@ -1,3 +1,9 @@
+/*
+    clear tmp!!!!!!!!!!! --------------------->   sudo rm -rf /tmp/*
+
+*/
+
+
 var mime = require('mime');
 var formidable = require('formidable');
 var http = require('http');
@@ -47,7 +53,7 @@ function posredujDatoteko(odgovor, datotekaPot, datotekaVsebina, mimeType) {
     }
     odgovor.end(datotekaVsebina, function() {
         if(path.dirname(datotekaPot) == './temp') {
-            fs.unlink(datotekaPot);
+            fs.unlinkSync(datotekaPot);
         }
     });
 }
@@ -71,8 +77,8 @@ function naloziDatoteko(zahteva, odgovor) {
                 var execCommand = './util/bin/sorter ' + vhodnaDatoteka + ' ' + izhodnaDatoteka;
                 console.log(vhodnaDatoteka);
                 exec(execCommand, function(error, stdout, stderr) {
-                    fs.unlink(vhodnaDatoteka);
                     posredujStaticnoVsebino(odgovor, izhodnaDatoteka, "");
+                    fs.unlinkSync(vhodnaDatoteka);
                 });
             }
         });

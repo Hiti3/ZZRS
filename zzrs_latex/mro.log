@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.1)  12 APR 2017 22:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.1)  20 APR 2017 10:04
 entering extended mode
 **./mro.tex
 (mro.tex
@@ -841,11 +841,14 @@ File: img/8_zzrs_opis_problema.pdf Graphic file (type pdf)
 
 <use img/8_zzrs_opis_problema.pdf>
 Package pdftex.def Info: img/8_zzrs_opis_problema.pdf used on input line 18.
-(pdftex.def)             Requested size: 345.0pt x 344.99428pt.
+(pdftex.def)             Requested size: 255.3019pt x 255.29419pt.
  [1
 
 
 ]
+Underfull \vbox (badness 1226) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 12.51453pt.
@@ -853,48 +856,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2 <./img/8_zzrs_opis_problema.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 49.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-[3] <img/test1.png, id=118, 388.95313pt x 305.64188pt>
-File: img/test1.png Graphic file (type png)
- <use img/test1.png>
-Package pdftex.def Info: img/test1.png used on input line 78.
-(pdftex.def)             Requested size: 276.00105pt x 216.89064pt.
+<img/testiranje_int.png, id=114, 392.46625pt x 306.14375pt>
+File: img/testiranje_int.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
- []
+<use img/testiranje_int.png>
+Package pdftex.def Info: img/testiranje_int.png used on input line 51.
+(pdftex.def)             Requested size: 224.2479pt x 174.92883pt.
+) [3 <./img/testiranje_int.png>] [4] [5] [6
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
- []
-
-[4 <./img/test1.png>] <img/test2.png, id=122, 381.92688pt x 306.14375pt>
-File: img/test2.png Graphic file (type png)
-
-<use img/test2.png>
-Package pdftex.def Info: img/test2.png used on input line 104.
-(pdftex.def)             Requested size: 276.00105pt x 221.24548pt.
-) [5 <./img/test2.png>] [6
-
-
-] (mro.bbl)
+]
+(mro.bbl)
 No file mro.ind.
 [7
 
@@ -904,13 +885,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24960 strings out of 493333
- 614807 string characters out of 3139169
- 789779 words of memory out of 3000000
- 27987 multiletter control sequences out of 15000+200000
+ 24940 strings out of 493333
+ 614506 string characters out of 3139169
+ 795779 words of memory out of 3000000
+ 27971 multiletter control sequences out of 15000+200000
  20081 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,96p,727b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,11n,96p,873b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Matej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\ecbx1200.pk> <C:\Users\Matej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\
 ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Matej Kristan\AppData\Local\Mi
@@ -924,11 +905,10 @@ ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\M
 atej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm10
 00.pk> <C:\Users\Matej Kristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
 n\ec\dpi600\ecrm1200.pk> <C:\Users\Matej Kristan\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb>
-Output written on mro.pdf (13 pages, 488808 bytes).
+\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk>
+Output written on mro.pdf (13 pages, 464544 bytes).
 PDF statistics:
- 468 PDF objects out of 1000 (max. 8388607)
+ 462 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

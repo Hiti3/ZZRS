@@ -1,0 +1,25 @@
+Povprečen čas:              3.18
+Število odjemalvec:         1
+Število različnih datotek:  1
+
+Povprečen čas:              11.18
+Število odjemalvec:         10
+Število različnih datotek:  1
+
+Povprečen čas:              22.01
+Število odjemalvec:         20
+Število različnih datotek:  1
+
+Povprečen čas:              26.23
+Število odjemalvec:         30
+Število različnih datotek:  1
+
+Povprečen čas:              35.05
+Število odjemalvec:         40
+Število različnih datotek:  1
+
+Povprečen čas:              50.74 -- napaka: existing connection was forcibly closed by remote host
+Število odjemalvec:         50
+Število različnih datotek:  1
+
+y20 = [3.18, 11.18, 22.01, 26.23, 35.05, 50.74]
