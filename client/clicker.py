@@ -1,16 +1,19 @@
+#INSTALLATION: sudo pip install RequestsThrottler
+
 import requests
 import time
 from threading import Thread
 from requests_throttler import BaseThrottler
 import logging
+import math
 
-c9_username = "kristanm1"
-c9_workspace_name = "zzrs-server"
+c9_username = "hiti3"
+c9_workspace_name = "zzrs-new"
 url = "https://" + c9_workspace_name + "-" + c9_username + ".c9users.io/nalozi"
 data_type = "int"
-input_size = 25000
+input_size = 30000
 num_clients = 10
-num_files = 1
+num_files = 10
 wait_for_response = True
 request_delay = 0.5
 file_list = ["inputs/"+data_type+"_"+str(input_size)+"/"+data_type+"_"+str(input_size)+"_"+str(i)+".txt" for i in range(num_files)]
@@ -55,10 +58,33 @@ for i in range(num_clients):
 sum = 0.0;
 for i in range(num_clients):
     threads[i].join()
-    sum = sum + float(times[i]/num_files)
+    sum = sum + float(times[i])
+    
+sd = 0.0 # std deviation
+mean = (sum/num_clients) # avg time per 1 user over all his files
+for i in range(num_clients):
+    sd = sd + math.pow(times[i] - mean, 2)
+sd = math.sqrt(sd / (num_clients))
 
-print("Povprecen cas: " + str(sum/num_clients))
-print("Stevilo odjemalcev: " + str(num_clients))
-print("Stevilo podatkov v datoteki: " + str(input_size))
-print("Stevilo razlicnih datotek: " + str(num_files))
-print("Prislo do napake: " + str(err))
+#output test logs
+mean_str = "Povprecen cas cakanja klientov preko vseh zahtevanih datotek: " + str(mean)
+num_clients_str = "Stevilo odjemalcev: " + str(num_clients)
+input_size_str = "Stevilo podatkov v datoteki: " + str(input_size)
+num_files_str = "Stevilo razlicnih datotek: " + str(num_files)
+sd_str = "Standardna deviacija preko vseh zahtevanih datotek na klienta: " + str(sd)
+error_str = "Prislo do napake: " + str(err)
+
+print(input_size_str)
+print(mean_str)
+print(num_clients_str)
+print(num_files_str)
+print(sd_str)
+print(error_str)
+
+test_file = open("../testi/Test_" + str(input_size) + "_" + str(num_clients) + "_" + str(num_files) + ".txt", "w+")
+test_file.write(input_size_str+'\n')
+test_file.write(mean_str+'\n')
+test_file.write(num_clients_str+'\n')
+test_file.write(num_files_str+'\n')
+test_file.write(sd_str+'\n')
+test_file.write(error_str+'\n')
