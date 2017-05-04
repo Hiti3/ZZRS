@@ -2,11 +2,10 @@
 \contentsline {chapter}{Predgovor}{iii}
 \contentsline {chapter}{\numberline {1}Analiza zmogljivosti obla"cne storitve c9}{1}
 \contentsline {section}{\numberline {1.1}Opis problema}{1}
-\contentsline {section}{\numberline {1.2}Namen}{1}
-\contentsline {section}{\numberline {1.3}Izbira ponudnikov}{1}
-\contentsline {subsection}{\numberline {1.3.1}Cloud 9}{2}
-\contentsline {section}{\numberline {1.4}Izbira tehnologij}{2}
-\contentsline {subsection}{\numberline {1.4.1}Tehnologija v oblaku}{2}
-\contentsline {subsection}{\numberline {1.4.2}Tehnologija za avtomatizacijo odjemalcev}{3}
-\contentsline {section}{\numberline {1.5}Rezultati meritev}{3}
-\contentsline {subsection}{\numberline {1.5.1}Testiranje I.}{3}
+\contentsline {section}{\numberline {1.2}Izbira ponudnikov}{1}
+\contentsline {section}{\numberline {1.3}Izbira tehnologij}{2}
+\contentsline {subsection}{\numberline {1.3.1}Tehnologija v oblaku}{2}
+\contentsline {subsection}{\numberline {1.3.2}Tehnologija za avtomatizacijo odjemalcev}{2}
+\contentsline {section}{\numberline {1.4}Rezultati meritev}{3}
+\contentsline {subsection}{\numberline {1.4.1}Testiranje I.}{3}
+\contentsline {section}{\numberline {1.5}Plan za prihodnje delo}{4}
