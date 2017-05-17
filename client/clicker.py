@@ -7,16 +7,19 @@ from requests_throttler import BaseThrottler
 import logging
 import math
 
-c9_username = "hiti3"
-c9_workspace_name = "zzrs-new"
+c9_username = "zkokelj"
+c9_workspace_name = "newzzrs"
 url = "https://" + c9_workspace_name + "-" + c9_username + ".c9users.io/nalozi"
+#url = "https://8080-dot-2370374-dot-devshell.appspot.com/nalozi"
+print(url)
 data_type = "int"
 input_size = 30000
-num_clients = 10
+num_clients = 50
 num_files = 10
 wait_for_response = True
 request_delay = 0.5
 file_list = ["inputs/"+data_type+"_"+str(input_size)+"/"+data_type+"_"+str(input_size)+"_"+str(i)+".txt" for i in range(num_files)]
+#print(file_list)
 threads = []
 
 err = False
@@ -28,7 +31,7 @@ def ask_for_sort(url, file_name):
     response = requests.post(url, files=files)
     time_spent = time.time() - start
     return [response, time_spent]
-    
+
 def _print(response, client_id, file_id, print_data):
     num_elements = response.text.split('\n')[0]
     if not isinstance(num_elements, int):
@@ -41,6 +44,7 @@ def sort_file_list(url, file_list, wait_for_response, request_delay, client_id):
     if wait_for_response:
         for i, file in enumerate(file_list):
             response = requests.post(url, files={"file": open(file)})
+            #print(response.text)
             _print(response, client_id, i, 0)
     else:
         reqs = [requests.Request(method="POST", url=url, files={"file": open(file_name)}) for file_name in file_list]
@@ -59,7 +63,7 @@ sum = 0.0;
 for i in range(num_clients):
     threads[i].join()
     sum = sum + float(times[i])
-    
+
 sd = 0.0 # std deviation
 mean = (sum/num_clients) # avg time per 1 user over all his files
 for i in range(num_clients):

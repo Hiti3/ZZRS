@@ -1,9 +1,3 @@
-/*
-    clear tmp!!!!!!!!!!! --------------------->   sudo rm -rf /tmp/*
-
-*/
-
-
 var mime = require('mime');
 var formidable = require('formidable');
 var http = require('http');
@@ -17,13 +11,15 @@ var port = process.env.PORT || 8080;
 var dataDir = "./temp/";
 
 var streznik = http.createServer(function(zahteva, odgovor) {
-   if (zahteva.url == '/') {
-       posredujStaticnoVsebino(odgovor, './index.html', "");
+  if (zahteva.url == '/') {
+	   posredujStaticnoVsebino(odgovor, './index.html', "");
    }
-   else if(zahteva.url == '/nalozi') {
-       naloziDatoteko(zahteva, odgovor);
-   }
+	 else if(zahteva.url == '/nalozi') {
+		 naloziDatoteko(zahteva, odgovor);
+	 }
 });
+
+streznik.timeout = 2000 * 1000;
 
 streznik.listen(port, function(){
     console.log("Streznik je zagnan!");
@@ -47,7 +43,7 @@ function posredujStaticnoVsebino(odgovor, absolutnaPotDoDatoteke, mimeType) {
 
 function posredujDatoteko(odgovor, datotekaPot, datotekaVsebina, mimeType) {
     if (mimeType == "") {
-        odgovor.writeHead(200, {'Content-Type': mime.lookup(path.basename(datotekaPot))});    
+        odgovor.writeHead(200, {'Content-Type': mime.lookup(path.basename(datotekaPot))});
     } else {
         odgovor.writeHead(200, {'Content-Type': mimeType});
     }
@@ -60,17 +56,17 @@ function posredujDatoteko(odgovor, datotekaPot, datotekaVsebina, mimeType) {
 
 function naloziDatoteko(zahteva, odgovor) {
     var form = new formidable.IncomingForm();
- 
+
     form.parse(zahteva, function(napaka, polja, datoteke) {
         util.inspect({fields: polja, files: datoteke});
     });
- 
+
     form.on('end', function(fields, files) {
         var zacasnaPot = this.openedFiles[0].path;
         var id = shortid.generate();
         var vhodnaDatoteka = dataDir + 'vhod_' + id + '.txt';
         var izhodnaDatoteka = dataDir + 'izhod_' + id + '.txt';
-        fs.copy(zacasnaPot, vhodnaDatoteka, function(napaka) {  
+        fs.move(zacasnaPot, vhodnaDatoteka, function(napaka) {
             if (napaka) {
                 posredujNapako500(odgovor);
             } else {
