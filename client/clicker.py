@@ -9,13 +9,13 @@ import math
 
 c9_username = "zkokelj"
 c9_workspace_name = "newzzrs"
-url = "https://" + c9_workspace_name + "-" + c9_username + ".c9users.io/nalozi"
-#url = "https://8080-dot-2370374-dot-devshell.appspot.com/nalozi"
+#url = "https://" + c9_workspace_name + "-" + c9_username + ".c9users.io/nalozi"
+url = "http://46.101.220.240:8080/nalozi"
 print(url)
 data_type = "int"
 input_size = 30000
-num_clients = 50
-num_files = 10
+num_clients = 10
+num_files = 5
 wait_for_response = True
 request_delay = 0.5
 file_list = ["inputs/"+data_type+"_"+str(input_size)+"/"+data_type+"_"+str(input_size)+"_"+str(i)+".txt" for i in range(num_files)]
