@@ -1,0 +1,6 @@
+Stevilo podatkov v datoteki: 40000
+Povprecen cas cakanja klientov preko vseh zahtevanih datotek: 1499.492498225
+Stevilo odjemalcev: 40
+Stevilo razlicnih datotek: 5
+Standardna deviacija preko vseh zahtevanih datotek na klienta: 35.551494218691644
+Prislo do napake: False

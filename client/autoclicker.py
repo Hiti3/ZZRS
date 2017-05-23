@@ -6,12 +6,19 @@ from threading import Thread
 from requests_throttler import BaseThrottler
 import logging
 import math
+#Frankfurt 512/1
+#url = "http://46.101.220.240:8080/nalozi"
 
-url = "http://46.101.220.240:8080/nalozi"
+#San Francisco 512/1
+#url = "http://138.197.200.63:8080/nalozi"
+
+#Frankfurt 2gb/2
+url ="http://207.154.226.85:8080/nalozi"
+
 print(url)
 data_type = "int"
 input_size = [10000, 15000, 20000, 25000, 30000, 40000, 50000]
-num_clients = [1,5, 10, 15, 20, 30, 40]
+num_clients = [1, 10, 20, 30, 40]
 num_files = 5
 wait_for_response = True
 request_delay = 0.5

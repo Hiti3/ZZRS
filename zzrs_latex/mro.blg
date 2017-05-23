@@ -3,3 +3,10 @@ A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: poglavje01.aux
 The style file: ieeetr.bst
 Database file #1: mro.bib
+Warning--entry type for "8_servers" isn't style-file defined
+--line 1 of file mro.bib
+Warning--entry type for "8_nodejs" isn't style-file defined
+--line 22 of file mro.bib
+Warning--entry type for "8_python" isn't style-file defined
+--line 29 of file mro.bib
+(There were 3 warnings)

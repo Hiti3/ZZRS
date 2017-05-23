@@ -1,9 +1,13 @@
 \begin{thebibliography}{1}
 
+\bibitem{8_servers}
+``{Cloud computing}.'' \url{https://en.wikipedia.org/wiki/Cloud_computing/},
+  Marec 2017.
+
 \bibitem{8_nodejs}
-``{Node.js}.'' Dosegljivo: https://nodejs.org/en/.
+``{Node.js}.'' \url{https://nodejs.org/}, Marec 2017.
 
 \bibitem{8_python}
-``{Python}.'' Dosegljivo: https://www.python.org/.
+``{Welcome to Python.org}.'' https://www.python.org/, Marec 2017.
 
 \end{thebibliography}
