@@ -22,7 +22,7 @@
 
 \section{Izbira ponudnikov}
 Zaradi brezpla"cne ponudbe preko Github Education Pack paketa za "studente smo se odlo"cili za obla"cno storitev DigitalOcean. DigtalOcean je ameri"sko podjetje, ki ponuja istoimenske obla"cne stortive. Na strani stre"znika nam ponuja izbiro razli"cnih distribucij operacijskega sistema Linux (Ubuntu, FreeBSD, Fedora, Debian, CentOS, ...).
-V na"si brezpla"ci verziji imamo na voljo 512MB RAM-a, 1 procesor, 20GB prostora na SSD disku ter 1TB prenosa podatkov na mesec. V pla"cljivi razli"cici pa je na voljo vse do 64GB RAM-a, 20 procesorjev, 640GB prostora na SSD disku ter kar 9TB prenosa podatkov. Poleg velike prilagodljivosti glede zmogljivosti na"se resitve pa imamo veliko mo"znosti tudi pri izbiri fizi"cne lokacije stre"znikov. 
+V na"si brezpla"ci verziji imamo na voljo 512MB RAM-a, 1 procesor, 20GB prostora na SSD disku ter 1TB prenosa podatkov na mesec. V pla"cljivi razli"cici pa je na voljo vse do 64GB RAM-a, 20 procesorjev, 640GB prostora na SSD disku ter kar 9TB prenosa podatkov. Poleg velike prilagodljivosti glede zmogljivosti na"se re"sitve pa imamo veliko mo"znosti tudi pri izbiri fizi"cne lokacije stre"znikov. 
 Izbiralo lahko med Ney Yorkom, San Franciscom, Amsterdamom, Singapurjem, Londonom, Frankfurtom, Torontom in Bangalorejem. 
 
 \section{Izbira tehnologij}
@@ -36,7 +36,7 @@ V tem razdelku so na kratko opisane vse izbrane tehnologije, ki smo jih realizir
 \end{figure}
 
 \subsection{Tehnologija na strani stre"znika }
-Na obla"cni stortivi DigialOcean smo implementirali stre"znik, ki je napisan v jeziku javascript z uporabo knji"znice Node.js~\cite{8_nodejs}. Stre"znik "caka na HTTP zahteve. Na 'POST /' zahtevo odgovori z html datoteko, preko katere lahko nalo"zimo datoteko, in jo z klikom na gumb po"sljemo s 'POST /nalozi' zahtevo na stre"znik. Ko stre"znik sprejme datoteko za"zene program napisan v programskem jeziku C, ki uredi podatke po vrsti v novo datoteko z algoritmom prikazanim na sliki \ref{8_sort}, z $O(n^2)$ "casovno zahtevnostjo. Program prejeto datoteko bere po vrsticah, kjer prva  vrstica vsebuje "stevilo podatkov, nasljednje vrstice pa podatke. Urejeno datoteko stre"znik po"slje, kot odgovor odjemalcu. 
+Na obla"cni stortivi DigialOcean smo implementirali stre"znik, ki je napisan v jeziku javascript z uporabo knji"znice Node.js~\cite{8_nodejs}. Stre"znik "caka na HTTP zahteve. Na 'POST /' zahtevo odgovori z html datoteko, preko katere lahko nalo"zimo datoteko, in jo s klikom na gumb po"sljemo s 'POST /nalozi' zahtevo na stre"znik. Ko stre"znik sprejme datoteko za"zene program napisan v programskem jeziku C, ki uredi podatke po vrsti v novo datoteko z algoritmom prikazanim na sliki \ref{8_sort}, z $O(n^2)$ "casovno zahtevnostjo. Program prejeto datoteko bere po vrsticah, kjer prva  vrstica vsebuje "stevilo podatkov, naslednje vrstice pa podatke. Urejeno datoteko stre"znik po"slje, kot odgovor odjemalcu. 
 
 \subsection{Tehnologija za avtomatizacijo odjemalcev}
 Zaradi avtomatskega testiranja smo napisali skripto v programskem jeziku python~\cite{8_python}, ki omogo"ca avtomatsko po"siljanje datoteke preko URL 'POST /nalozi' zahteve na stre"znik, ter po"caka na datoteko z urejenimi podatki, kot odgovor. Seveda ob tem zabele"zimo "se "cas pred po"siljanjem zahteve in "cas po prejetju urejene datoteke, da dobimo izvajalni "cas celotne procedure. Ker je odjemalcev lahko ve"cje "stevilo, smo ta problem re"sili z nitmi, kjer vsaka nit predstavlja enega odjemalca in po"silja zahteve na stre"znik, preko istega IP naslova.
@@ -53,15 +53,15 @@ V programskem jeziku C smo napisali generator datotek, ki ustvari datoteko želj
 \end{figure}
 
 \section{Testiranje I. }
-Testiranje je bilo izvedeno med 18:00 in 22:00 v "cetrtek 18. Maja 2017 iz "studentskega naselja Ro"zna Dolina. Za dostop je bila uporabljana internetna povezava s hitrostjo prenosa 100Mbps in nalaganja 100Mbps.
-Stre"znik te"ce na operacijskem sistemu Ubuntu 16.04 in ima na voljo 512MB RAM-a, 1 procesor, 20GB prostora na SSD disku in je lociran v Frankfurtu(Nem"cija). Na stre"zniku je bil izbran algoritem bubble sort \ref{8_sort}
+Testiranje je bilo izvedeno med 18:00 in 22:00 v "cetrtek 18. Maja 2017 iz "studentskega naselja Ro"zna Dolina. Za dostop je bila uporabljana internetna povezava s hitrostjo prenosa 100Mbps.
+Stre"znik te"ce na operacijskem sistemu Ubuntu 16.04 in ima na voljo 512MB RAM-a, 1 procesor, 20GB prostora na SSD disku in je lociran v Frankfurtu(Nem"cija). Na stre"zniku je bil izbran algoritem bubble sort~\ref{8_sort}.
 
 \subsection{Nacin testiranja}
-Testiranje smo izvedli s pomo"cjo generiranih datotek. Namenski program v Python-u je prakti"cno hkrati poslal datoteko na 1, 10, 20, 30 in 40 odjemalcev. Da bi zagotovili ve"cjo to"cnost podatkov smo test ponovili s po petimi datotekami v vsakem velikostnem razredu. 
-Izmerili smo vse povpre"cne case ter iz njih izra"cunali povpre"cje ter standardno deviacijo, kar lahko vidite na spodnjem grafu  \ref{8_test1} . 
+Testiranje smo izvedli s pomo"cjo generiranih datotek. Namenski program v Python-u je prakti"cno hkrati poslal datoteko preko 1, 10, 20, 30 in 40 odjemalcev. Da bi zagotovili ve"cjo to"cnost podatkov smo test ponovili s po petimi datotekami v vsakem velikostnem razredu. 
+Izmerili smo vse povpre"cne "case ter iz njih izra"cunali povpre"cje ter standardno deviacijo, kar lahko vidite na spodnjem grafu  \ref{8_test1} . 
 
 \subsection{Rezultati meritev}
-Poleg ponujanja stre"zni"skih stortiev nam DigitalOcean nudi tudi grafi"cni prikaz porabe posameznih rezisrov(CPE, RAM, DISK, ...).
+Poleg ponujanja stre"zni"skih stortiev nam DigitalOcean nudi tudi grafi"cni prikaz porabe posameznih resursov(CPE, RAM, DISK, ...).
 Grafe porabe resursov lahko vidite na spodnjem grafu. 
 
 \begin{figure}
@@ -101,17 +101,17 @@ Grafe porabe resursov lahko vidite na spodnjem grafu.
 \subsection{Razlaga meritev}
 Ob ogladu meritev opazimo, da "cas "cakanja posameznega odjemalca na datoteke v povpre"cju nara"s"ca pribli"zni linearno glede na "stevilo odjemalcev, ki hkrati po"sljejo datoteko.
 Naklon grafa je mo"cno odvisen od velikosti sortiranih datotek in pri ve"cjih datotekah na ve"c odjemalcih precej naraste.
-Iz grafa zasedenosti resursov lahko razberemo, da je "sibka tocka na"sega sistema procesor, saj je ta skoraj ves "cas izvajanja testov 100% obremenjen. RAM nikoli med testiranjem ne preseže 50% zasedenosti.
+Iz grafa zasedenosti resursov lahko razberemo, da je "sibka tocka na"sega sistema procesor, saj je ta skoraj ves "cas izvajanja testov 100\% obremenjen. RAM nikoli med testiranjem ne preseže 50\% zasedenosti.
 Najmanj obremenjena komponenta je trdi disk, saj vsako datoteko po obdelavi sproti izbri"se.
 
 \section{Testiranje II. }
-Testiranje je bilo izvedeno med 10:00 in 14:00 (po lokalnem času 1:00 do 5:00)  v ponedeljek 22. Maja 2017 iz "studentskega naselja Ro"zna Dolina. Za dostop je bila uporabljana internetna povezava s hitrostjo prenosa 100Mbps in nalaganja 100Mbps.
-Stre"znik te"ce na operacijskem sistemu Ubuntu 16.04 in ima na voljo 512MB RAM-a, 1 procesor, 20GB prostora na SSD disku in je lociran v San Franciscu(Vzhodna obala ZDA). Na stre"zniku je bil izbran algoritem bubble sort \ref{8_sort}
+Testiranje je bilo izvedeno med 10:00 in 14:00 (po lokalnem času 1:00 do 5:00)  v ponedeljek 22. Maja 2017 iz "studentskega naselja Ro"zna Dolina. Za dostop je bila uporabljana internetna povezava s hitrostjo prenosa 100Mbps.
+Stre"znik te"ce na operacijskem sistemu Ubuntu 16.04 in ima na voljo 512MB RAM-a, 1 procesor, 20GB prostora na SSD disku in je lociran v San Franciscu(Vzhodna obala ZDA). Na stre"zniku je bil izbran algoritem bubble sort~\ref{8_sort}.
 
 
 \subsection{Nacin testiranja}
 Testiranje smo izvedli s pomo"cjo generiranih datotek. Namenski program v Python-u je prakti"cno hkrati poslal datoteko na 1, 10, 20, 30 in 40 odjemalcev. Da bi zagotovili ve"cjo to"cnost podatkov smo test ponovili s po petimi datotekami v vsakem velikostnem razredu. 
-Izmerili smo vse povpre"cne case ter iz njih izra"cunali povpre"cje ter standardno deviacijo, kar lahko vidite na spodnjem grafu  \ref{8_test1} . 
+Izmerili smo vse povpre"cne case ter iz njih izra"cunali povpre"cje ter standardno deviacijo, kar lahko vidite na spodnjem grafu~\ref{8_test1}.
 
 \subsection{Rezultati meritev}
 Poleg dobljenih "casov meritev smo pridobili tudi podatke o zasedenosti resursov na streni stre"znika. Zasedenost resursov je zelo podobna zasedenosti pri prvem testiranju. 

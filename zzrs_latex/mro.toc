@@ -17,15 +17,15 @@
 \contentsline {subsection}{\numberline {1.5.2}Rezultati meritev}{6}
 \contentsline {subsection}{\numberline {1.5.3}Razlaga meritev}{6}
 \contentsline {section}{\numberline {1.6}Testiranje III. }{6}
-\contentsline {subsection}{\numberline {1.6.1}Nacin testiranja}{8}
+\contentsline {subsection}{\numberline {1.6.1}Nacin testiranja}{6}
 \contentsline {subsection}{\numberline {1.6.2}Rezultati meritev}{8}
-\contentsline {subsection}{\numberline {1.6.3}Razlaga meritev}{9}
+\contentsline {subsection}{\numberline {1.6.3}Razlaga meritev}{8}
 \contentsline {section}{\numberline {1.7}Primerjava "casov na razli"cnih stre"znikih z datotekami velikosti 10,000 INT}{9}
 \contentsline {subsection}{\numberline {1.7.1}Graf}{9}
 \contentsline {subsection}{\numberline {1.7.2}Razlaga}{9}
-\contentsline {section}{\numberline {1.8}Primerjava "casov na razli"cnih stre"znikih z datotekami velikosti 20,000 INT}{9}
-\contentsline {subsection}{\numberline {1.8.1}Graf}{9}
-\contentsline {subsection}{\numberline {1.8.2}Razlaga}{9}
+\contentsline {section}{\numberline {1.8}Primerjava "casov na razli"cnih stre"znikih z datotekami velikosti 20,000 INT}{10}
+\contentsline {subsection}{\numberline {1.8.1}Graf}{10}
+\contentsline {subsection}{\numberline {1.8.2}Razlaga}{10}
 \contentsline {section}{\numberline {1.9}Primerjava "casov na razli"cnih stre"znikih z datotekami velikosti 50,000 INT}{10}
 \contentsline {subsection}{\numberline {1.9.1}Graf}{10}
 \contentsline {subsection}{\numberline {1.9.2}Razlaga}{10}
