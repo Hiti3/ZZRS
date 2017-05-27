@@ -2,30 +2,15 @@
 \contentsline {chapter}{Predgovor}{iii}
 \contentsline {chapter}{\numberline {1}Analiza zmogljivosti obla"cne storitve DigitalOcean}{1}
 \contentsline {section}{\numberline {1.1}Opis problema}{1}
-\contentsline {section}{\numberline {1.2}Izbira ponudnikov}{1}
-\contentsline {section}{\numberline {1.3}Izbira tehnologij}{2}
-\contentsline {subsection}{\numberline {1.3.1}Tehnologija na strani stre"znika }{2}
-\contentsline {subsection}{\numberline {1.3.2}Tehnologija za avtomatizacijo odjemalcev}{3}
-\contentsline {subsection}{\numberline {1.3.3}Generiranje vhodnih podatkov}{3}
-\contentsline {subsection}{\numberline {1.3.4}Uporabljeni algoritmi za sortiranje}{3}
-\contentsline {section}{\numberline {1.4}Testiranje I. }{3}
-\contentsline {subsection}{\numberline {1.4.1}Nacin testiranja}{4}
-\contentsline {subsection}{\numberline {1.4.2}Rezultati meritev}{4}
-\contentsline {subsection}{\numberline {1.4.3}Razlaga meritev}{4}
-\contentsline {section}{\numberline {1.5}Testiranje II. }{6}
-\contentsline {subsection}{\numberline {1.5.1}Nacin testiranja}{6}
-\contentsline {subsection}{\numberline {1.5.2}Rezultati meritev}{6}
-\contentsline {subsection}{\numberline {1.5.3}Razlaga meritev}{6}
-\contentsline {section}{\numberline {1.6}Testiranje III. }{6}
-\contentsline {subsection}{\numberline {1.6.1}Nacin testiranja}{6}
-\contentsline {subsection}{\numberline {1.6.2}Rezultati meritev}{8}
-\contentsline {subsection}{\numberline {1.6.3}Razlaga meritev}{8}
-\contentsline {section}{\numberline {1.7}Primerjava "casov na razli"cnih stre"znikih z datotekami velikosti 10,000 INT}{9}
-\contentsline {subsection}{\numberline {1.7.1}Graf}{9}
-\contentsline {subsection}{\numberline {1.7.2}Razlaga}{9}
-\contentsline {section}{\numberline {1.8}Primerjava "casov na razli"cnih stre"znikih z datotekami velikosti 20,000 INT}{10}
-\contentsline {subsection}{\numberline {1.8.1}Graf}{10}
-\contentsline {subsection}{\numberline {1.8.2}Razlaga}{10}
-\contentsline {section}{\numberline {1.9}Primerjava "casov na razli"cnih stre"znikih z datotekami velikosti 50,000 INT}{10}
-\contentsline {subsection}{\numberline {1.9.1}Graf}{10}
-\contentsline {subsection}{\numberline {1.9.2}Razlaga}{10}
+\contentsline {section}{\numberline {1.2}Izbira tehnologij in algoritmov}{1}
+\contentsline {subsection}{\numberline {1.2.1}Tehnologija na strani stre"znika }{1}
+\contentsline {subsection}{\numberline {1.2.2}Tehnologija za avtomatizacijo odjemalcev}{2}
+\contentsline {subsection}{\numberline {1.2.3}Generiranje vhodnih podatkov}{2}
+\contentsline {subsection}{\numberline {1.2.4}Izbrani algoritmi za sortiranje}{3}
+\contentsline {section}{\numberline {1.3}Izbira ponudnikov}{4}
+\contentsline {section}{\numberline {1.4}Rezultati meritev}{4}
+\contentsline {subsection}{\numberline {1.4.1}Stevilo odjemalcev - Eksperiment 1}{4}
+\contentsline {subsection}{\numberline {1.4.2}Velikost datotek - Eksperiment 2}{6}
+\contentsline {subsection}{\numberline {1.4.3}Ozko grlo na stre"zniku - Eksperiment 3}{6}
+\contentsline {subsection}{\numberline {1.4.4}Lokalnost - Eksperiment 4}{7}
+\contentsline {subsection}{\numberline {1.4.5}Razli"cne ra"cunske mo"ci - Eksperiment 5}{8}
