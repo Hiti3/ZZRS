@@ -8,9 +8,10 @@
 \contentsline {subsection}{\numberline {1.2.3}Generiranje vhodnih podatkov}{2}
 \contentsline {subsection}{\numberline {1.2.4}Izbrani algoritmi za sortiranje}{3}
 \contentsline {section}{\numberline {1.3}Izbira ponudnikov}{4}
-\contentsline {section}{\numberline {1.4}Rezultati meritev}{4}
-\contentsline {subsection}{\numberline {1.4.1}Stevilo odjemalcev - Eksperiment 1}{4}
+\contentsline {section}{\numberline {1.4}Rezultati meritev}{5}
+\contentsline {subsection}{\numberline {1.4.1}Stevilo odjemalcev - Eksperiment 1}{5}
 \contentsline {subsection}{\numberline {1.4.2}Velikost datotek - Eksperiment 2}{6}
-\contentsline {subsection}{\numberline {1.4.3}Ozko grlo na stre"zniku - Eksperiment 3}{6}
-\contentsline {subsection}{\numberline {1.4.4}Lokalnost - Eksperiment 4}{7}
-\contentsline {subsection}{\numberline {1.4.5}Razli"cne ra"cunske mo"ci - Eksperiment 5}{8}
+\contentsline {subsection}{\numberline {1.4.3}Ozko grlo na stre"zniku - Eksperiment 3}{8}
+\contentsline {subsection}{\numberline {1.4.4}Lokalnost - Eksperiment 4}{9}
+\contentsline {subsection}{\numberline {1.4.5}Razli"cne ra"cunske mo"ci - Eksperiment 5}{10}
+\contentsline {subsection}{\numberline {1.4.6}24 urni test - Eksperiment 6}{12}
