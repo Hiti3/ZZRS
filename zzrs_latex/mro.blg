@@ -1,5 +1,48 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: mro.aux
+This is BibTeX, Version 0.99d (TeX Live 2016/Arch Linux)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: mro.aux
 A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: poglavje01.aux
 The style file: ieeetr.bst
 Database file #1: mro.bib
+You've used 8 entries,
+            1876 wiz_defined-function locations,
+            502 strings with 4443 characters,
+and the built_in function-call counts, 830 in all, are:
+= -- 72
+> -- 8
+< -- 0
++ -- 8
+- -- 0
+* -- 26
+:= -- 83
+add.period$ -- 8
+call.type$ -- 8
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 32
+empty$ -- 145
+format.name$ -- 0
+if$ -- 233
+int.to.chr$ -- 0
+int.to.str$ -- 8
+missing$ -- 0
+newline$ -- 27
+num.names$ -- 0
+pop$ -- 48
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 48
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 9
+write$ -- 50
