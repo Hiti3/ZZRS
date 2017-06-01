@@ -5,13 +5,16 @@
 \contentsline {section}{\numberline {1.2}Izbira tehnologij in algoritmov}{1}
 \contentsline {subsection}{\numberline {1.2.1}Tehnologija na strani stre"znika }{1}
 \contentsline {subsection}{\numberline {1.2.2}Tehnologija za avtomatizacijo odjemalcev}{2}
-\contentsline {subsection}{\numberline {1.2.3}Generiranje vhodnih podatkov}{2}
+\contentsline {subsection}{\numberline {1.2.3}Generiranje vhodnih podatkov}{3}
 \contentsline {subsection}{\numberline {1.2.4}Izbrani algoritmi za sortiranje}{3}
 \contentsline {section}{\numberline {1.3}Izbira ponudnikov}{4}
-\contentsline {section}{\numberline {1.4}Rezultati meritev}{5}
-\contentsline {subsection}{\numberline {1.4.1}Stevilo odjemalcev - Eksperiment 1}{5}
-\contentsline {subsection}{\numberline {1.4.2}Velikost datotek - Eksperiment 2}{6}
-\contentsline {subsection}{\numberline {1.4.3}Ozko grlo na stre"zniku - Eksperiment 3}{8}
-\contentsline {subsection}{\numberline {1.4.4}Lokalnost - Eksperiment 4}{9}
-\contentsline {subsection}{\numberline {1.4.5}Razli"cne ra"cunske mo"ci - Eksperiment 5}{10}
-\contentsline {subsection}{\numberline {1.4.6}24 urni test - Eksperiment 6}{12}
+\contentsline {section}{\numberline {1.4}Rezultati meritev}{6}
+\contentsline {subsection}{\numberline {1.4.1}"Stevilo odjemalcev - Eksperiment 1}{6}
+\contentsline {subsection}{\numberline {1.4.2}Velikost datotek - Eksperiment 2}{8}
+\contentsline {subsection}{\numberline {1.4.3}Ozko grlo na stre"zniku - Eksperiment 3}{10}
+\contentsline {subsection}{\numberline {1.4.4}Lokalnost - Eksperiment 4}{11}
+\contentsline {subsection}{\numberline {1.4.5}Razli"cne ra"cunske mo"ci - Eksperiment 5}{13}
+\contentsline {subsection}{\numberline {1.4.6}24 urni test - Eksperiment 6}{15}
+\contentsline {subsection}{\numberline {1.4.7}Izbira algoritma - Eksperiment 7}{16}
+\contentsline {subsection}{\numberline {1.4.8}Zlom sistema - Eksperiment 8}{17}
+\contentsline {section}{\numberline {1.5}Zaklju"cek}{19}

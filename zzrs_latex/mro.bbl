@@ -1,3 +1,16 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{8_js}
+``Javascript - homepage.'' \url{https://www.javascript.com/}.
+
+\bibitem{8_node}
+``Node.js - documentation.'' \url{https://nodejs.org/en/docs/}.
+
+\bibitem{8_c}
+``C - programming language.''
+  \url{https://en.wikipedia.org/wiki/C_(programming_language)}.
+
+\bibitem{8_py}
+``Python - documentation.'' \url{https://www.python.org/doc/}.
 
 \end{thebibliography}

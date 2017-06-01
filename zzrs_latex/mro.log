@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.23)  28 MAY 2017 10:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.23)  1 JUN 2017 22:43
 entering extended mode
 **C:/Users/Ziga/Projects/ZZRS/zzrs_latex/mro.tex
 (C:/Users/Ziga/Projects/ZZRS/zzrs_latex/mro.tex
@@ -839,12 +839,6 @@ Package: ulem 2012/05/18
 LaTeX Warning: Label `8_opis_problema' multiply defined.
 
 
-LaTeX Warning: Label `8_table1' multiply defined.
-
-
-LaTeX Warning: Label `8_graf_st_odjemalcev' multiply defined.
-
-
 LaTeX Warning: Label `8_graf_racunska_moc_50' multiply defined.
 
 ))
@@ -913,7 +907,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  (preface.tex [2
 
 
-]) [3] [4
+]
+Overfull \hbox (36.99005pt too wide) in paragraph at lines 5--6
+\T1/cmr/m/n/10 glji-vo-sti ne-ka-te-rih ti-piせnih streせniせkih in oblaせn
+ih iz-ve-denk raせunalniせkih
+ []
+
+
+Overfull \hbox (4.94756pt too wide) in paragraph at lines 5--6
+\T1/cmr/m/n/10 meta \T1/cmr/m/it/10 Za-ne-slji-vost in zmo-glji-vost raせunaln
+iせkih sis-te-mov\T1/cmr/m/n/10 , ki se je v せtud.letu
+ []
+
+) [3] [4
 
 
 ]
@@ -921,37 +927,32 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  (poglavje01.tex
 Poglavje 1.
-<img/8_zzrs_opis_problema.pdf, id=30, 853.57898pt x 853.57898pt>
+
+("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.s
+ty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.st
+y"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+) <img/8_zzrs_opis_problema.pdf, id=30, 853.57898pt x 853.57898pt>
 File: img/8_zzrs_opis_problema.pdf Graphic file (type pdf)
 
 <use img/8_zzrs_opis_problema.pdf>
-Package pdftex.def Info: img/8_zzrs_opis_problema.pdf used on input line 17.
+Package pdftex.def Info: img/8_zzrs_opis_problema.pdf used on input line 18.
 (pdftex.def)             Requested size: 255.3019pt x 255.29419pt.
-
-
-LaTeX Warning: Citation `8_js' on page 1 undefined on input line 28.
-
-
-LaTeX Warning: Citation `8_c' on page 1 undefined on input line 28.
-
-[1
+ [1
 
 
 ]
-Overfull \hbox (9.41345pt too wide) in paragraph at lines 31--32
+Overfull \hbox (6.63635pt too wide) in paragraph at lines 32--33
 \T1/cmr/m/n/10 Zaradi av-to-mat-skega te-sti-ra-nja smo na-pi-sali skripto v pr
-o-gram-skem je-ziku Python,
+o-gram-skem je-ziku Python
  []
 
-<img/ZZRS-sort_files.pdf, id=39, 1003.75pt x 602.25pt>
-File: img/ZZRS-sort_files.pdf Graphic file (type pdf)
 
-<use img/ZZRS-sort_files.pdf>
-Package pdftex.def Info: img/ZZRS-sort_files.pdf used on input line 38.
-(pdftex.def)             Requested size: 258.75pt x 155.24881pt.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -960,163 +961,304 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2 <./img/8_zzrs_opis_problema.pdf>]
-<img/ZZRS-sort_simple.pdf, id=115, 1003.75pt x 803.0pt>
-File: img/ZZRS-sort_simple.pdf Graphic file (type pdf)
+<img/ZZRS-sort_files.pdf, id=114, 1003.75pt x 602.25pt>
+File: img/ZZRS-sort_files.pdf Graphic file (type pdf)
 
-<use img/ZZRS-sort_simple.pdf>
-Package pdftex.def Info: img/ZZRS-sort_simple.pdf used on input line 49.
-(pdftex.def)             Requested size: 224.2479pt x 179.39291pt.
+<use img/ZZRS-sort_files.pdf>
+Package pdftex.def Info: img/ZZRS-sort_files.pdf used on input line 39.
+(pdftex.def)             Requested size: 258.75pt x 155.24881pt.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 52.
 
-<img/ZZRS-quicksort.pdf, id=116, 1003.75pt x 1606.0pt>
-File: img/ZZRS-quicksort.pdf Graphic file (type pdf)
-
-<use img/ZZRS-quicksort.pdf>
-Package pdftex.def Info: img/ZZRS-quicksort.pdf used on input line 56.
-(pdftex.def)             Requested size: 224.2479pt x 358.78584pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
+("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./img/ZZRS-sort_files.pdf> <./img/ZZRS-sort_simple.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 65.
+ [3 <./img/ZZRS-sort_files.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 107.
 
 ("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
 
-Underfull \vbox (badness 2903) has occurred while \output is active []
-
- [4 <./img/ZZRS-quicksort.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-
- []
-
-<img/test1_st_odjemalcev.jpg, id=238, 453.19313pt x 264.99pt>
+[4] [5] <img/test1_st_odjemalcev.jpg, id=168, 453.19313pt x 264.99pt>
 File: img/test1_st_odjemalcev.jpg Graphic file (type jpg)
 
 <use img/test1_st_odjemalcev.jpg>
-Package pdftex.def Info: img/test1_st_odjemalcev.jpg used on input line 109.
+Package pdftex.def Info: img/test1_st_odjemalcev.jpg used on input line 149.
 (pdftex.def)             Requested size: 345.0pt x 201.72604pt.
- [5] [6 <./img/test1_st_odjemalcev.jpg>]
-<img/test2_velikost_datotek.jpg, id=245, 453.94594pt x 268.00125pt>
+ [6 <./img/test1_st_odjemalcev.jpg>] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+<img/test2_velikost_datotek.jpg, id=176, 453.94594pt x 268.00125pt>
 File: img/test2_velikost_datotek.jpg Graphic file (type jpg)
 
 <use img/test2_velikost_datotek.jpg>
-Package pdftex.def Info: img/test2_velikost_datotek.jpg used on input line 152.
+Package pdftex.def Info: img/test2_velikost_datotek.jpg used on input line 189.
 
 (pdftex.def)             Requested size: 345.0pt x 203.68304pt.
- [7 <./img/test2_velikost_datotek.jpg>]
-<img/test3_resursi.pdf, id=250, 464.4853pt x 210.7875pt>
+ [8 <./img/test2_velikost_datotek.jpg>]
+[9] <img/test3_resursi.pdf, id=183, 464.4853pt x 210.7875pt>
 File: img/test3_resursi.pdf Graphic file (type pdf)
 
 <use img/test3_resursi.pdf>
-Package pdftex.def Info: img/test3_resursi.pdf used on input line 176.
+Package pdftex.def Info: img/test3_resursi.pdf used on input line 211.
 (pdftex.def)             Requested size: 345.0pt x 156.5689pt.
- [8 <./img/test3_resursi.pdf>]
-<img/test4_lokalnost_20.jpg, id=257, 463.7325pt x 277.78781pt>
+ [10 <./img/test3_resursi.pdf>]
+<img/test4_lokalnost_20.jpg, id=190, 463.7325pt x 277.78781pt>
 File: img/test4_lokalnost_20.jpg Graphic file (type jpg)
 
 <use img/test4_lokalnost_20.jpg>
-Package pdftex.def Info: img/test4_lokalnost_20.jpg used on input line 201.
+Package pdftex.def Info: img/test4_lokalnost_20.jpg used on input line 233.
 (pdftex.def)             Requested size: 345.0pt x 206.66605pt.
 
-<img/test4_lokalnost_50.jpg, id=258, 457.71pt x 274.02374pt>
+<img/test4_lokalnost_50.jpg, id=191, 457.71pt x 274.02374pt>
 File: img/test4_lokalnost_50.jpg Graphic file (type jpg)
 
 <use img/test4_lokalnost_50.jpg>
-Package pdftex.def Info: img/test4_lokalnost_50.jpg used on input line 207.
+Package pdftex.def Info: img/test4_lokalnost_50.jpg used on input line 240.
 (pdftex.def)             Requested size: 345.0pt x 206.55424pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[11 <./img/test4_lokalnost_20.jpg>] [12 <./img/test4_lokalnost_50.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
-Underfull \vbox (badness 5288) has occurred while \output is active []
+ []
 
- [9 <./img/test4_lokalnost_20.jpg>] [10 <./img/test4_lokalnost_50.jpg>]
-<img/test5_racunska_moc_20.jpg, id=265, 517.935pt x 305.64188pt>
+<img/test5_racunska_moc_20.jpg, id=198, 517.935pt x 305.64188pt>
 File: img/test5_racunska_moc_20.jpg Graphic file (type jpg)
 
 <use img/test5_racunska_moc_20.jpg>
-Package pdftex.def Info: img/test5_racunska_moc_20.jpg used on input line 232.
+Package pdftex.def Info: img/test5_racunska_moc_20.jpg used on input line 266.
 (pdftex.def)             Requested size: 345.0pt x 203.59906pt.
 
-<img/test5_racunska_moc_50.jpg, id=266, 459.96844pt x 270.25969pt>
+<img/test5_racunska_moc_50.jpg, id=199, 459.96844pt x 270.25969pt>
 File: img/test5_racunska_moc_50.jpg Graphic file (type jpg)
 
 <use img/test5_racunska_moc_50.jpg>
-Package pdftex.def Info: img/test5_racunska_moc_50.jpg used on input line 239.
+Package pdftex.def Info: img/test5_racunska_moc_50.jpg used on input line 273.
 (pdftex.def)             Requested size: 345.0pt x 202.719pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11 <./img/test5_racunska_moc_20.jpg>]
-<img/test6_24h.jpg, id=270, 461.47406pt x 270.25969pt>
+[13 <./img/test5_racunska_moc_20.jpg>] [14 <./img/test5_racunska_moc_50.jpg>]
+<img/test6_24h.jpg, id=207, 461.47406pt x 270.25969pt>
 File: img/test6_24h.jpg Graphic file (type jpg)
  <use img/test6_24h.jpg>
-Package pdftex.def Info: img/test6_24h.jpg used on input line 263.
+Package pdftex.def Info: img/test6_24h.jpg used on input line 293.
 (pdftex.def)             Requested size: 345.0pt x 202.04681pt.
+
+[15 <./img/test6_24h.jpg>]
+<img/test_frankfurt_algorithms.jpg, id=211, 359.09157pt x 207.02344pt>
+File: img/test_frankfurt_algorithms.jpg Graphic file (type jpg)
+
+<use img/test_frankfurt_algorithms.jpg>
+Package pdftex.def Info: img/test_frankfurt_algorithms.jpg used on input line 3
+15.
+(pdftex.def)             Requested size: 345.0pt x 198.91397pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12 <./img/test5_racunska_moc_50.jpg>]) [13 <./img/test6_24h.jpg>] [14
+[16] <img/test_zlom_sistema.jpg, id=215, 410.2828pt x 238.64156pt>
+File: img/test_zlom_sistema.jpg Graphic file (type jpg)
+
+<use img/test_zlom_sistema.jpg>
+Package pdftex.def Info: img/test_zlom_sistema.jpg used on input line 337.
+(pdftex.def)             Requested size: 345.0pt x 200.66873pt.
 
 
-]
-(mro.bbl
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
+[17 <./img/test_frankfurt_algorithms.jpg>]
+("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.s
+ty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.s
+ty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 348.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Package xcolor Warning: Incompatible color definition on input line 349.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./img/test_zlom_sistema.jpg>]) [19] [20
+
+
+] (mro.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+[]\T1/cmr/m/n/10 ``C - pro-gram-ming lan-gu-age.'' $\T1/cmtt/m/n/10 https : / /
+ en . wikipedia . org / wiki / C _$
+ []
 
 )
 No file mro.ind.
-[15
+[21
 
 ] (mro.aux (preface.aux) (poglavje01.aux))
-
-LaTeX Warning: There were undefined references.
-
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24994 strings out of 493634
- 623539 string characters out of 3135647
- 792028 words of memory out of 3000000
- 27868 multiletter control sequences out of 15000+200000
- 20081 words of font info for 54 fonts, out of 3000000 for 9000
+ 25591 strings out of 493634
+ 630148 string characters out of 3135647
+ 821028 words of memory out of 3000000
+ 28451 multiletter control sequences out of 15000+200000
+ 21472 words of font info for 57 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 62i,11n,96p,939b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,11n,96p,964b,1308s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-cbx1200.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecbx1440.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
-nappen\ec\dpi600\ecrm2074.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\Ziga\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1000.pk> <C:\Users\Ziga\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Zig
-a\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\
-Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000
+ctt1000.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ectt0900.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecbx1200.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\Ziga\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Ziga\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\Zig
+a\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1000.pk> <C:\
+Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000
 .pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecrm1200.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecrm1728.pk><C:/Users/Ziga/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ziga/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ziga/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Ziga/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on mro.pdf (21 pages, 2987465 bytes).
+\ecbx2488.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecrm1000.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/Users/Ziga/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ziga/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ziga/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Us
+ers/Ziga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb>
+Output written on mro.pdf (27 pages, 1546940 bytes).
 PDF statistics:
- 649 PDF objects out of 1000 (max. 8388607)
+ 711 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
