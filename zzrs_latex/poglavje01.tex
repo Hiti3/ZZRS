@@ -357,11 +357,11 @@ requests.packages.urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='139
 
 Na"s cilj je bil preveriti zmogljivost obla"cnih storitev za izvajanje ra"cunsko zahtevnih operacij. Uporabili smo stre"zni"sko infrastrukturo podjetja DigitalOcean in na njej izvajali operacijo urejanja "stevil, saj ta vsebuje veliko operacij(primerjanj).
 Izvajali smo razli"cne teste, ter tako preverjali vpliv dolo"cenih spremenljivk na zmogljivost na"sega sistema. \\
-S testi smo hoteli ugotoviti vplive "stevila odjemalcev, velikosti datotek, lokacije stre"znika, koli"cine razpolo"zljivih resursov na stre"zniku, dela dneva ter izbire algoritma. Poleg tega smo izvedli tudi test s katerim smo povzro"cili zlom sistema.
+S testi smo hoteli ugotoviti vplive "stevila odjemalcev, velikosti datotek, lokacije stre"znika, koli"cine razpolo"zljivih resursov na stre"zniku, dela dneva ter izbire algoritma na hitrost odziva stre"znika. Poleg tega smo izvedli tudi test s katerim smo povzro"cili zlom sistema.
 Merili smo predvsem "case potrebne za po"siljanje in sortiranje datotek ter zasedenost resursov na stre"zniku.\\
 Kot glavno ozko grlo stre"znika se je pri"cakovano izkazal CPU, saj mora pri sortiranju opraviti zelo veliko operacij primerjanja. Maksimalno zasedenost CPU-ja laho hitro dose"zemo z ve"canjem "stevila odjemalcev in velikosti datotek.\\
 Za metrike smo se odlo"cili na podlagi "clanka \cite{8_ibm_metrics}. V veliko pomo"c pa so nam bile tudi ugotovitve iz "clankov \cite{8_performance_challenges}, \cite{8_performance_analysis} in \cite{8_performance_evaluation}.
 
-Na podlagi eksperimentov smo ugotovili, da je izbira algoritma zelo pomembna in bistveno vpliva na "cas obdelave. Prav tako je klju"cna obremenjenost stre"znika z "stevilom klientov.
-Kljub vsemu pa stre"znik s tako nizkimi zmogljivostmi ne pride v po"stev za prakti"co uporabo re"sevanja ra"cunskih problemov namesto kon"cnih delovnih tock(osebnih ra"cunalnikov). Ob tem pa je potrebno poudariti, da na trgu obstajajo tudi precej
-zmogljivej"se re"sitve, ki omogo"cajo bistveno ve"cjo ra"cunsko mo"c.
+Na podlagi eksperimentov smo ugotovili, da je izbira algoritma zelo pomembna in bistveno vpliva na "cas obdelave. Prav tako je klju"cna obremenjenost stre"znika s "stevilom klientov.
+Kljub vsemu, pa stre"znik s tako nizkimi zmogljivostmi ne pride v po"stev za prakti"co uporabo re"sevanja ra"cunskih problemov namesto kon"cnih delovnih tock(osebnih ra"cunalnikov). Ob tem pa je potrebno poudariti, da na trgu obstajajo tudi precej
+zmogljivej"se re"sitve, ki omogo"cajo bistveno ve"cjo ra"cunsko mo"c. Vedno hitrej"si stre"zniki in pove"cevanje povpre"cne hitrosti internetne povezave, pa bo slej ko prej pripeljalo do to"cke, ko bomo iz kon"cnih to"ck ra"cunsko zahtevne probleme v obdelavo po"siljali na stre"znik. Na"se naprave, pa bodo skrbele le za interakcijo s stre"znikom in prikaz rezultatov. 
