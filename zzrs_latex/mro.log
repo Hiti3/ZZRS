@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.23)  6 JUN 2017 20:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.4.19)  6 JUN 2017 21:07
 entering extended mode
-**C:/Users/Ziga/Projects/ZZRS/zzrs_latex/mro.tex
-(C:/Users/Ziga/Projects/ZZRS/zzrs_latex/mro.tex
-LaTeX2e <2015/10/01> patch level 2
-Babel <3.9n> and hyphenation patterns for 69 languages loaded.
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**mro.tex
+(./mro.tex
+LaTeX2e <2017/01/01> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/share/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk10.clo"
+(/usr/share/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,43 +24,41 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
-"
-Package: amsmath 2013/01/14 v2.14 AMS math features
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
-"
-Package: amstext 2000/06/29 v2.01
- ("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
-"
-File: amsgen.sty 1999/11/30 v2.0
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
-Package: amsbsy 1999/11/29 v1.2d
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
-) ("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.st
-y"
-Package: amsopn 1999/12/14 v2.01 operator names
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count88
-LaTeX Info: Redefining \frac on input line 210.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count89
 \leftroot@=\count90
-LaTeX Info: Redefining \overline on input line 306.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count91
 \DOTSCASE@=\count92
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count93
 \c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
@@ -79,65 +79,55 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks18
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.st
-y"
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.s
-ty"
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+(/usr/share/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.s
-ty"
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
-"
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.s
-ty"
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graphics.c
-fg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.d
-ef"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarer
-r.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.
-sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count100
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.s
-ty"
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count101
 \lst@gtempboxa=\box28
 \lst@token=\toks20
@@ -151,61 +141,51 @@ ty"
 \lst@lineno=\count106
 \lst@maxwidth=\dimen117
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.st
-y"
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count107
 \lst@skipnumbers=\count108
 \lst@framebox=\box29
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.c
-fg"
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 142.
+Package color Info: Driver file: pdftex.def on input line 147.
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.s
-ty"
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.s
-ty"
-Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-b
-ase.sty"
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
-"
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefine
-keys.sty"
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.
-sty"
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetkey
-s.sty"
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmds
-.sty"
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluatex
-.sty"
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
 Package etexcmds Info: Could not find \expanded.
@@ -213,80 +193,69 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexcm
-ds.sty"
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.st
-y"
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\afterpage.sty
-"
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/share/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks21
 \AP@partial=\box30
 \AP@footins=\box31
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty
-"
+(/usr/share/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box32
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer\t
-ikz.sty"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.
-sty"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrc
-s.sty"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgf
-util-common.tex"
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks22
 \pgfutil@tempdima=\dimen118
 \pgfutil@tempdimb=\dimen119
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgf
-util-common-lists.tex"))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgf
-util-latex.def"
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box33
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+(/usr/share/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgf
-rcs.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfc
-ore.sty"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgf
-sys.sty"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\p
-gfsys.code.tex"
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgf
-keys.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks23
 \pgfkeys@temptoks=\toks24
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgf
-keysfiltered.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks25
 ))
 \pgf@x=\dimen120
@@ -307,35 +276,30 @@ keysfiltered.code.tex"
 \t@pgf@tokb=\toks27
 \t@pgf@tokc=\toks28
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\p
-gf.cfg"
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\p
-gfsys-pdftex.def"
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\p
-gfsys-common-pdf.def"
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\p
-gfsyssoftpath.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count113
 \pgfsyssoftpath@bigbuffer@items=\count114
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\p
-gfsysprotocol.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 LaTeX Info: Redefining \color on input line 709.
@@ -349,18 +313,13 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcore.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.
-code.tex"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathc
-alc.code.tex"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathu
-til.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathp
-arser.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen128
 \pgfmath@count=\count115
 \pgfmath@box=\box34
@@ -368,30 +327,19 @@ arser.code.tex"
 \pgfmath@stack@operand=\toks30
 \pgfmath@stack@operation=\toks31
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathf
-unctions.code.tex"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathf
-unctions.basic.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathf
-unctions.trigonometric.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathf
-unctions.random.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathf
-unctions.comparison.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathf
-unctions.base.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathf
-unctions.round.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathf
-unctions.misc.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathf
-unctions.integerarithmetics.code.tex")))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathf
-loat.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code
+.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count116
-))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcorepoints.code.tex"
+)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen129
 \pgf@picmaxx=\dimen130
@@ -408,128 +356,99 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen141
 \pgf@zy=\dimen142
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcorepathconstruct.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen143
 \pgf@path@lasty=\dimen144
-)
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcorepathusage.code.tex"
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen145
 \pgf@shorten@start@additional=\dimen146
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcorescopes.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box35
 \pgf@hbox=\box36
 \pgf@layerbox@main=\box37
 \pgf@picture@serial@count=\count117
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcoregraphicstate.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen147
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcoretransformations.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
+ex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen148
 \pgf@pt@y=\dimen149
 \pgf@pt@temp=\dimen150
-)
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcorequick.code.tex"
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcoreobjects.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcorepathprocessing.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
+x
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
-)
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcorearrows.code.tex"
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen151
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcoreshade.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen152
 \pgf@sys@shading@range@num=\count118
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcoreimage.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcoreexternal.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box38
 ))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcorelayers.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcoretransparency.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
-)
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
-fcorepatterns.code.tex"
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmo
-duleshapes.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box39
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmo
-duleplot.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\p
-gfcomp-version-0-65.sty"
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen153
 \pgf@nodesepend=\dimen154
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\p
-gfcomp-version-1-18.sty"
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 ))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgffo
-r.sty"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfke
-ys.sty"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgf
-keys.code.tex"))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.st
-y"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.
-code.tex"))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgf
-for.code.tex"
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.
-code.tex")
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen155
 \pgffor@skip=\dimen156
 \pgffor@stack=\toks32
 \pgffor@toks=\toks33
 ))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer
-\tikz\tikz.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgf
-libraryplothandlers.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
+x
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count119
 \pgfplotmarksize=\dimen157
@@ -548,9 +467,7 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofchildren=\count121
 \tikznumberofcurrentchild=\count122
 \tikz@fig@count=\count123
-
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmo
-dulematrix.code.tex"
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count124
 \pgfmatrixcurrentcolumn=\count125
@@ -558,20 +475,15 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count127
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer
-\tikz\libraries\tikzlibrarytopaths.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+topaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-)))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgfplots\pgfplots.s
-ty"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots
-.revision.tex")
+))) (/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots
-.code.tex"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots
-core.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks34
 \t@pgfplots@tokb=\toks35
 \t@pgfplots@tokc=\toks36
@@ -579,81 +491,60 @@ core.code.tex"
 \c@pgfplots@coordindex=\count128
 \c@pgfplots@scanlineindex=\count129
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\sys\pgfp
-lotssysgeneric.code.tex"))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\libs\pgf
-plotslibrary.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\oldpgfco
-mpatib\pgfplotsoldpgfsupp_loader.code.tex"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgf
-libraryfpu.code.tex")
+(/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_l
+oader.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary arithmetics for your pgf version...
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\oldpgfco
-mpatib\pgfplotsoldpgfsupp_pgflibraryfpu.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\oldpgfco
-mpatib\pgfplotsoldpgfsupp_pgfmathfloat.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_p
+gflibraryfpu.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_p
+gfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count130
 ))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util\pgf
-plotsutil.code.tex"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\liststru
-cture\pgfplotsliststructure.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\liststru
-cture\pgfplotsliststructureext.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\liststru
-cture\pgfplotsarray.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure
+.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure
+ext.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.te
+x
 \c@pgfplotsarray@tmp=\count131
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\liststru
-cture\pgfplotsmatrix.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\numtable
-\pgfplotstableshared.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.t
+ex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.t
+ex
 \c@pgfplotstable@counta=\count132
 \t@pgfplotstable@a=\toks37
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\liststru
-cture\pgfplotsdeque.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util\pgf
-plotsbinary.code.tex"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util\pgf
-plotsbinary.data.code.tex"))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util\pgf
-plotsutil.verb.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\libs\pgf
-librarypgfplots.surfshading.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading
+.code.tex
 \c@pgfplotslibrarysurf@no=\count133
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\sys\pgfl
-ibrarypgfplots.surfshading.pgfsys-pdftex.def")))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util\pgf
-plotscolormap.code.tex"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util\pgf
-plotscolor.code.tex"))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots
-stackedplots.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots
-plothandlers.code.tex"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots
-meshplothandler.code.tex"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots
-meshplotimage.code.tex")))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots
-.scaling.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots
-coordprocessing.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots
-.errorbars.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots
-.markers.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots
-ticks.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplots
-.paths.code.tex")
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer
-\tikz\libraries\tikzlibrarydecorations.code.tex"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmo
-duledecorations.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.
+pgfsys-pdftex.def)))
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex)))
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+decorations.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen165
 \pgfdecoratedremainingdistance=\dimen166
 \pgfdecoratedinputsegmentcompleteddistance=\dimen167
@@ -665,14 +556,14 @@ duledecorations.code.tex"
 )
 \tikz@lib@dec@box=\box44
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer
-\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\dec
-orations\pgflibrarydecorations.pathmorphing.code.tex"))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer
-\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex"
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\dec
-orations\pgflibrarydecorations.pathreplacing.code.tex"))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+decorations.pathmorphing.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
+ons.pathmorphing.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+decorations.pathreplacing.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
+ons.pathreplacing.code.tex))
 \pgfplots@numplots=\count135
 \pgfplots@xmin@reg=\dimen172
 \pgfplots@xmax@reg=\dimen173
@@ -681,36 +572,33 @@ orations\pgflibrarydecorations.pathreplacing.code.tex"))
 \pgfplots@zmin@reg=\dimen176
 \pgfplots@zmax@reg=\dimen177
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer
-\tikz\libraries\tikzlibraryplotmarks.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+plotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgf
-libraryplotmarks.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 )))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer
-\tikz\libraries\tikzlibrarypatterns.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+patterns.code.tex
 File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.1a (rcs-revision 1.2)
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgf
-librarypatterns.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
 File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.1a (rcs-revision 1.13)
 ))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\libs\tik
-zlibrarypgfplots.groupplots.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.groupplots
+.code.tex
 \pgfplots@group@current@plot=\count136
 \pgfplots@group@current@row=\count137
 \pgfplots@group@current@column=\count138
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer
-\tikz\libraries\tikzlibrarycalc.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+calc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
-))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\placeins\placeins.s
-ty"
+)) (/usr/share/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
-) ("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+)
+(/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count139
 \float@exts=\toks38
@@ -719,47 +607,40 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box46
 )
 \@float@every@figure=\toks40
- ("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2016/01/08 3.9n The Babel package
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\bblopts.cf
-g"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-slovenian\slo
-vene.ldf"
+(/usr/share/texmf-dist/tex/generic/babel-slovenian/slovene.ldf
 Language: slovene 2005/03/31 v1.2m Slovene support from the babel system
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2016/01/08 3.9n Babel common definitions
+(/usr/share/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count140
 \U@D=\dimen178
 )
 Package babel Info: Making " an active character on input line 79.
-)) ("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
-"
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
- ("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+))
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/02/22 v2.0g Standard LaTeX package
+
+(/usr/share/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/02/22 v2.0g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) ("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
-y"
+))
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks41
 \inpenc@posthook=\toks42
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\cp1250.def"
+
+(/usr/share/texmf-dist/tex/latex/base/cp1250.def
 File: cp1250.def 2015/03/17 v1.2c Input encoding file
 ))
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.s
-ty"
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip46
 \f@ncyO@elh=\skip47
@@ -771,8 +652,8 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@olf=\skip53
 \f@ncyO@orf=\skip54
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
+(/usr/share/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \c@tracingmulticols=\count141
 \mult@box=\box47
 \multicol@leftmargin=\dimen179
@@ -819,7 +700,8 @@ Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \mult@nat@firstbox=\box71
 \colbreak@box=\box72
 \mc@col@check@num=\count149
-) ("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
+)
+(/usr/share/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box73
 \UL@hyphenbox=\box74
 \UL@skip=\skip57
@@ -833,8 +715,8 @@ Package: ulem 2012/05/18
 )
 \c@definicija=\count151
 \c@zgled=\count152
-
-(mro.aux (preface.aux) (poglavje01.aux
+ (./mro.aux (./preface.aux)
+(./poglavje01.aux
 
 LaTeX Warning: Label `8_opis_problema' multiply defined.
 
@@ -856,9 +738,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
-
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mki
-i"
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count153
 \scratchdimen=\dimen191
@@ -881,21 +761,19 @@ your preamble.
  on input line 90.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 95.
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 95.
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-[1
+) [1
 
 
-{C:/Users/Ziga/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-]
-(mro.toc)
+] (./mro.toc)
 \tf@toc=\write4
 \openout4 = `mro.toc'.
 
@@ -904,19 +782,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 \openout2 = `preface.aux'.
 
- (preface.tex [2
+ (./preface.tex [2
 
 
 ]
 Overfull \hbox (36.99005pt too wide) in paragraph at lines 5--6
-\T1/cmr/m/n/10 glji-vo-sti ne-ka-te-rih ti-piせnih streせniせkih in oblaせn
-ih iz-ve-denk raせunalniせkih
+\T1/cmr/m/n/10 glji-vo-sti ne-ka-te-rih ti-piせ^^Enih streせ^^Eniせ^^Ekih in ob
+laせ^^Enih iz-ve-denk raせ^^Eunalniせ^^Ekih
  []
 
 
 Overfull \hbox (4.94756pt too wide) in paragraph at lines 5--6
-\T1/cmr/m/n/10 meta \T1/cmr/m/it/10 Za-ne-slji-vost in zmo-glji-vost raせunaln
-iせkih sis-te-mov\T1/cmr/m/n/10 , ki se je v せtud.letu
+\T1/cmr/m/n/10 meta \T1/cmr/m/it/10 Za-ne-slji-vost in zmo-glji-vost raせ^^Euna
+lniせ^^Ekih sis-te-mov\T1/cmr/m/n/10 , ki se je v せ^^Etud.letu
  []
 
 ) [3] [4
@@ -925,17 +803,15 @@ iせkih sis-te-mov\T1/cmr/m/n/10 , ki se je v せtud.letu
 ]
 \openout2 = `poglavje01.aux'.
 
- (poglavje01.tex
+ (./poglavje01.tex
 Poglavje 1.
-
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.s
-ty"
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.st
-y"
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) <img/8_zzrs_opis_problema.pdf, id=30, 853.57898pt x 853.57898pt>
+)
+<img/8_zzrs_opis_problema.pdf, id=31, 853.57898pt x 853.57898pt>
 File: img/8_zzrs_opis_problema.pdf Graphic file (type pdf)
 
 <use img/8_zzrs_opis_problema.pdf>
@@ -961,15 +837,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2 <./img/8_zzrs_opis_problema.pdf>]
-<img/8_ZZRS-sort_files.pdf, id=114, 1003.75pt x 602.25pt>
+<img/8_ZZRS-sort_files.pdf, id=115, 1003.75pt x 602.25pt>
 File: img/8_ZZRS-sort_files.pdf Graphic file (type pdf)
 
 <use img/8_ZZRS-sort_files.pdf>
 Package pdftex.def Info: img/8_ZZRS-sort_files.pdf used on input line 39.
 (pdftex.def)             Requested size: 258.75pt x 155.24881pt.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 52.
-
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+ (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -981,13 +856,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 107.
 
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
-
-[4] [5] <img/8_test1_st_odjemalcev.jpg, id=168, 441.14813pt x 257.46187pt>
+ [4] [5]
+<img/8_test1_st_odjemalcev.jpg, id=169, 441.14813pt x 257.46187pt>
 File: img/8_test1_st_odjemalcev.jpg Graphic file (type jpg)
 
 <use img/8_test1_st_odjemalcev.jpg>
@@ -999,14 +874,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
-<img/8_test2_velikost_datotek.jpg, id=176, 441.14813pt x 255.20343pt>
+<img/8_test2_velikost_datotek.jpg, id=177, 441.14813pt x 255.20343pt>
 File: img/8_test2_velikost_datotek.jpg Graphic file (type jpg)
 
 <use img/8_test2_velikost_datotek.jpg>
 Package pdftex.def Info: img/8_test2_velikost_datotek.jpg used on input line 18
 9.
 (pdftex.def)             Requested size: 345.0pt x 199.59135pt.
- [8 <./img/8_test2_velikost_datotek.jpg>] [9] <img/8_test3_resursi.jpg, id=183,
+ [8 <./img/8_test2_velikost_datotek.jpg>] [9] <img/8_test3_resursi.jpg, id=184,
  595.47469pt x 265.74281pt>
 File: img/8_test3_resursi.jpg Graphic file (type jpg)
 
@@ -1014,14 +889,14 @@ File: img/8_test3_resursi.jpg Graphic file (type jpg)
 Package pdftex.def Info: img/8_test3_resursi.jpg used on input line 211.
 (pdftex.def)             Requested size: 345.0pt x 153.96062pt.
  [10 <./img/8_test3_resursi.jpg>]
-<img/8_test4_lokalnost_20.jpg, id=187, 463.7325pt x 277.78781pt>
+<img/8_test4_lokalnost_20.jpg, id=188, 463.7325pt x 277.78781pt>
 File: img/8_test4_lokalnost_20.jpg Graphic file (type jpg)
 
 <use img/8_test4_lokalnost_20.jpg>
 Package pdftex.def Info: img/8_test4_lokalnost_20.jpg used on input line 233.
 (pdftex.def)             Requested size: 345.0pt x 206.66605pt.
 
-<img/8_test4_lokalnost_50.jpg, id=188, 457.71pt x 274.02374pt>
+<img/8_test4_lokalnost_50.jpg, id=189, 457.71pt x 274.02374pt>
 File: img/8_test4_lokalnost_50.jpg Graphic file (type jpg)
 
 <use img/8_test4_lokalnost_50.jpg>
@@ -1036,7 +911,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-<img/8_test5_racunska_moc_20.jpg, id=195, 517.935pt x 305.64188pt>
+<img/8_test5_racunska_moc_20.jpg, id=196, 517.935pt x 305.64188pt>
 File: img/8_test5_racunska_moc_20.jpg Graphic file (type jpg)
 
 <use img/8_test5_racunska_moc_20.jpg>
@@ -1044,7 +919,7 @@ Package pdftex.def Info: img/8_test5_racunska_moc_20.jpg used on input line 266
 .
 (pdftex.def)             Requested size: 345.0pt x 203.59906pt.
 
-<img/8_test5_racunska_moc_50.jpg, id=196, 459.96844pt x 270.25969pt>
+<img/8_test5_racunska_moc_50.jpg, id=197, 459.96844pt x 270.25969pt>
 File: img/8_test5_racunska_moc_50.jpg Graphic file (type jpg)
 
 <use img/8_test5_racunska_moc_50.jpg>
@@ -1056,14 +931,14 @@ Package pdftex.def Info: img/8_test5_racunska_moc_50.jpg used on input line 273
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13 <./img/8_test5_racunska_moc_20.jpg>] [14 <./img/8_test5_racunska_moc_50.jpg
->] <img/8_test6_24h.jpg, id=204, 461.47406pt x 270.25969pt>
+>] <img/8_test6_24h.jpg, id=205, 461.47406pt x 270.25969pt>
 File: img/8_test6_24h.jpg Graphic file (type jpg)
 
 <use img/8_test6_24h.jpg>
 Package pdftex.def Info: img/8_test6_24h.jpg used on input line 293.
 (pdftex.def)             Requested size: 345.0pt x 202.04681pt.
  [15 <./img/8_test6_24h.jpg>]
-<img/8_test_frankfurt_algorithms.jpg, id=208, 359.09157pt x 207.02344pt>
+<img/8_test_frankfurt_algorithms.jpg, id=209, 359.09157pt x 207.02344pt>
 File: img/8_test_frankfurt_algorithms.jpg Graphic file (type jpg)
 
 <use img/8_test_frankfurt_algorithms.jpg>
@@ -1074,7 +949,7 @@ Package pdftex.def Info: img/8_test_frankfurt_algorithms.jpg used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16] <img/8_test_zlom_sistema.jpg, id=212, 410.2828pt x 238.64156pt>
+[16] <img/8_test_zlom_sistema.jpg, id=213, 410.2828pt x 238.64156pt>
 File: img/8_test_zlom_sistema.jpg Graphic file (type jpg)
 
 <use img/8_test_zlom_sistema.jpg>
@@ -1085,12 +960,10 @@ Package pdftex.def Info: img/8_test_zlom_sistema.jpg used on input line 337.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [17 <./img/8_test_frankfurt_algorithms.jpg>]
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.s
-ty"
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-("C:\Users\Ziga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.s
-ty"
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 
@@ -1216,10 +1089,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [18 <./img/8_test_zlom_sistema.jpg>] [19] [20
 
 
-] (mro.bbl
+] (./mro.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 10--12
 []\T1/cmr/m/n/10 ``C - pro-gram-ming lan-gu-age.'' $\T1/cmtt/m/n/10 https : / /
- en . wikipedia . org / wiki / C _$
+ en . wikipedia . org / wiki / C _
  []
 
 
@@ -1231,13 +1104,13 @@ Underfull \hbox (badness 2856) in paragraph at lines 17--19
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--19
 \T1/cmr/m/n/10 trics.'' $\T1/cmtt/m/n/10 https : / / www . ibm . com / support 
-/ knowledgecenter / SS5MD2 _ 7 . 4 .$
+/ knowledgecenter / SS5MD2 _ 7 . 4 .
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--19
-$\T1/cmtt/m/n/10 0 . 1 / com . ibm . itcamt . doc / rt / Install _ Guide / wrt 
-_ enhanced _ network _$
+\T1/cmtt/m/n/10 0 . 1 / com . ibm . itcamt . doc / rt / Install _ Guide / wrt _
+ enhanced _ network _
  []
 
 
@@ -1247,62 +1120,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 21--23
-$\T1/cmtt/m/n/10 https : / / www . cmg . org / wp-[]content / uploads / 2014 / 
-03 /$
+\T1/cmtt/m/n/10 https : / / www . cmg . org / wp-[]content / uploads / 2014 / 0
+3 /
  []
 
 
 Underfull \hbox (badness 1331) in paragraph at lines 25--27
 []\T1/cmr/m/n/10 ``Performance ana-lysis of cloud com-pu-ting cen-ters.'' $\T1/
-cmtt/m/n/10 http : / / www . scs .$
+cmtt/m/n/10 http : / / www . scs .
  []
 
 
 Underfull \hbox (badness 4036) in paragraph at lines 29--32
 \T1/cmr/m/n/10 lop-ment.'' $\T1/cmtt/m/n/10 https : / / www . thinkmind . org /
- download . php ? articleid = icn _$
+ download . php ? articleid = icn _
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 34--36
+[]\T1/cmr/m/n/10 ``Performance te-sting of cloud appli-ca-ti-ons.'' $\T1/cmtt/m
+/n/10 http : / / www . remics . eu /
  []
 
 )
 No file mro.ind.
 [21
 
-] (mro.aux (preface.aux) (poglavje01.aux))
+] (./mro.aux (./preface.aux) (./poglavje01.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25594 strings out of 493634
- 630336 string characters out of 3135647
- 821028 words of memory out of 3000000
- 28454 multiletter control sequences out of 15000+200000
- 21472 words of font info for 57 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 62i,11n,96p,966b,1308s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-ctt1000.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ectt0900.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
-nappen\ec\dpi600\ecbx1200.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\Ziga\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Ziga\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\Zig
-a\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1000.pk> <C:\
-Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000
-.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecbx2488.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecrm1000.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
-jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Ziga\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/Users/Ziga/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ziga/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ziga/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Us
-ers/Ziga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb>
-Output written on mro.pdf (27 pages, 1587966 bytes).
+ 25610 strings out of 493013
+ 620667 string characters out of 6139317
+ 822173 words of memory out of 5000000
+ 28629 multiletter control sequences out of 15000+600000
+ 21472 words of font info for 57 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,11n,96p,927b,1308s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/
+fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sf
+bx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></us
+r/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-d
+ist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1
+/public/cm-super/sfrm2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-supe
+r/sfsl1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+</usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/tex
+mf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on mro.pdf (27 pages, 1650554 bytes).
 PDF statistics:
- 728 PDF objects out of 1000 (max. 8388607)
+ 287 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
